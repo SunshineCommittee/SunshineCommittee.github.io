@@ -28,8 +28,7 @@ github_username:  jekyll
 markdown: kramdown
 plugins:
   - jekyll-feed
-
-  exclude:
+exclude:
   - "README.md"
   - "CHANGELOG.md"
   - "CNAME"
