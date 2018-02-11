@@ -64,6 +64,11 @@ $space-xs: $line-height-computed * 1;
 $space-sm: $line-height-computed * 1.5;
 $space-md: $line-height-computed * 2;
 
+body {
+  background-image: url("../assets/sun_bg_tile_8.png");
+  background-repeat: repeat;
+}
+
 h2 {
   margin-top: $line-height-computed * 1.5;
   margin-bottom: $line-height-computed * 0.25;

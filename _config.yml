@@ -28,10 +28,7 @@ github_username:  jekyll
 markdown: kramdown
 plugins:
   - jekyll-feed
-<<<<<<< HEAD
-
-=======
->>>>>>> 05381c16547e8e28e15631ce76d349ba2fc63f08
+  - jemoji
 exclude:
   - "README.md"
   - "CHANGELOG.md"
