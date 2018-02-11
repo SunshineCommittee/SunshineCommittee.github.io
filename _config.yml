@@ -1,5 +1,5 @@
 baseurl: "" # The subpath of your site. Use "" if you're hosting a blog at the root level.
-url: "http://SunshineCommittee.github.io" # the base hostname & protocol for your site
+url: "https://sunshinecommittee.github.io/" # the base hostname & protocol for your site
 title: "Sunshine Committee"
 
 # This is used by feed.xml. Uncomment if you want to use it.
