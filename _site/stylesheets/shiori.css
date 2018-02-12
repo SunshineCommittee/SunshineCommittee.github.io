@@ -2018,11 +2018,17 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
 @media print { .visible-print-inline-block { display: inline-block !important; } }
 
 @media print { .hidden-print { display: none !important; } }
-body { background-image: url("../assets/sun_bg_tile_8.png"); background-repeat: repeat; }
+body { background-image: url("../assets/sun_bg_tile_8.png"); background-repeat: repeat; background-position: center center; background-attachment: fixed; }
 
-h2 { margin-top: 40.5px; margin-bottom: 6.75px; }
+p { color: white; }
 
-h3 { text-transform: uppercase; margin-bottom: 6.75px; }
+h1 { color: white; }
+
+h2 { color: white; margin-top: 40.5px; margin-bottom: 6.75px; }
+
+h3 { color: white; text-transform: uppercase; margin-bottom: 6.75px; }
+
+a { color: #FFFA8A; }
 
 @media (min-width: 768px) { .lead { font-size: 18px; } }
 
