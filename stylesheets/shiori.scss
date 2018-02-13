@@ -34,6 +34,7 @@ $gray-light: #aaa;
 $almost-white: #dbdbdb;
 
 $cagliostro-gold: #e2de8a;//#fffbb5;//#fffcc1;//#FFFA8A;
+$cagliostro-gold-hover: #c9c578;
 $sunny-orange: #e2c42f;//#ffda22;
 
 $brand-primary: #e07280;
@@ -97,6 +98,9 @@ h3 {
 a{
   color: $cagliostro-gold;
 }
+a:hover{
+  color: $cagliostro-gold-hover;
+}
 
 .lead {
   @media (min-width: $screen-sm-min) {
@@ -107,6 +111,13 @@ a{
 .btn {
   color: $gray-dark;
   background-color: $cagliostro-gold;
+  border-color: $sunny-orange; 
+  font-family: $headings-font-family;
+}
+
+.btn-primary:hover{
+  color: $gray-dark;
+  background-color: $cagliostro-gold-hover;
   border-color: $sunny-orange; 
   font-family: $headings-font-family;
 }
