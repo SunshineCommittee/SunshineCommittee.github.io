@@ -1,9 +1,10 @@
 var bg = $("#bg");
 
 function resizeBackground() {
-    bg.height($(window).height() + 60);
+    bg.height($(document).height());
     console.log("resizing");
 }
 
-$(window).scroll(resizeBackground);
+$(window).resize(resizeBackground);
+$(document).resize(resizeBackground);
 resizeBackground();
