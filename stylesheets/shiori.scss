@@ -74,6 +74,7 @@ body {
   background-repeat: repeat;
   background-position: center top;
   background-attachment: fixed;
+  color: $almost-white;
 }
 
 p {
@@ -100,6 +101,11 @@ a{
 }
 a:hover{
   color: $cagliostro-gold-hover;
+}
+
+th, td{
+  padding-top: 14px;
+  padding-right: 7px;
 }
 
 .lead {
@@ -209,6 +215,12 @@ a:hover{
 
 .home-read-more {
   margin-bottom: 40px;
+}
+
+.col-sm-8{
+  border-color: white;
+  border-right-width: 1px;
+  border-right-style: solid;
 }
 
 .gist {

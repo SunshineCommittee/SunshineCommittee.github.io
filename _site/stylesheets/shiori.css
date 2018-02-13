@@ -2018,7 +2018,7 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
 @media print { .visible-print-inline-block { display: inline-block !important; } }
 
 @media print { .hidden-print { display: none !important; } }
-body { background-image: url("../assets/sun_bg_tile_8.png"); background-repeat: repeat; background-position: center top; background-attachment: fixed; }
+body { background-image: url("../assets/sun_bg_tile_8.png"); background-repeat: repeat; background-position: center top; background-attachment: fixed; color: #dbdbdb; }
 
 p { color: #dbdbdb; }
 
@@ -2031,6 +2031,8 @@ h3 { color: white; text-transform: uppercase; margin-bottom: 6.75px; }
 a { color: #e2de8a; }
 
 a:hover { color: #c9c578; }
+
+th, td { padding-top: 14px; padding-right: 7px; }
 
 @media (min-width: 768px) { .lead { font-size: 18px; } }
 
@@ -2080,6 +2082,8 @@ a:hover { color: #c9c578; }
 .footer { margin: 40.5px 0 40.5px; font-size: 13px; color: #aaa; }
 
 .home-read-more { margin-bottom: 40px; }
+
+.col-sm-8 { border-color: white; border-right-width: 1px; border-right-style: solid; }
 
 .gist table { border: none !important; width: auto !important; }
 .gist td { border-left: none !important; border-top: none !important; border-bottom: none !important; }
