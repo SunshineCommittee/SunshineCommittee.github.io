@@ -32,6 +32,9 @@ $gray: #888;
 $btn-default-color: #555;
 $gray-light: #aaa;
 
+$cagliostro-gold:#FFFA8A;
+$sunny-orange: #ffda22;
+
 $brand-primary: #e07280;
 $code-color: #555;
 $code-bg: #f5f5f5;
@@ -67,7 +70,7 @@ $space-md: $line-height-computed * 2;
 body {
   background-image: url("../assets/sun_bg_tile_8.png");
   background-repeat: repeat;
-  background-position: center center;
+  background-position: center top;
   background-attachment: fixed;
 }
 
@@ -91,7 +94,7 @@ h3 {
 }
 
 a{
-  color: #FFFA8A;
+  color: $cagliostro-gold;
 }
 
 .lead {
@@ -101,6 +104,9 @@ a{
 }
 
 .btn {
+  color: $navbar-default-brand-color;
+  background-color: $cagliostro-gold;
+  border-color: $sunny-orange; 
   font-family: $headings-font-family;
 }
 
@@ -161,6 +167,8 @@ a{
   font-weight: $headings-font-weight;
 }
 .navbar {
+  background-color: $cagliostro-gold;
+  border-color: $sunny-orange; 
   font-family: $headings-font-family;
 }
 .navbar-static-top {
