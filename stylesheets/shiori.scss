@@ -31,9 +31,10 @@ $gray-dark: #555;
 $gray: #888;
 $btn-default-color: #555;
 $gray-light: #aaa;
+$almost-white: #dbdbdb;
 
-$cagliostro-gold: #fffbb5;//#fffcc1;//#FFFA8A;
-$sunny-orange: #ffda22;
+$cagliostro-gold: #e2de8a;//#fffbb5;//#fffcc1;//#FFFA8A;
+$sunny-orange: #e2c42f;//#ffda22;
 
 $brand-primary: #e07280;
 $code-color: #555;
@@ -75,7 +76,7 @@ body {
 }
 
 p {
-  color: white;
+  color: $almost-white;
 }
 
 h1 {
@@ -104,7 +105,7 @@ a{
 }
 
 .btn {
-  color: $navbar-default-brand-color;
+  color: $gray-dark;
   background-color: $cagliostro-gold;
   border-color: $sunny-orange; 
   font-family: $headings-font-family;
@@ -163,16 +164,26 @@ a{
   margin-top: 0;
 }
 
-.navbar-brand {
+.navbar-default {
+  color: $gray-dark;
+  border-color: $sunny-orange;
+}
+
+.navbar-default .navbar-brand {
+  color: $gray-dark;
   font-weight: $headings-font-weight;
 }
 .navbar {
+  color: $gray-dark;
   background-color: $cagliostro-gold;
   border-color: $sunny-orange; 
   font-family: $headings-font-family;
 }
 .navbar-static-top {
   margin-bottom: $space-md;
+}
+.navbar-default .navbar-toggle {
+  border-color: $sunny-orange;
 }
 
 .page-archive {

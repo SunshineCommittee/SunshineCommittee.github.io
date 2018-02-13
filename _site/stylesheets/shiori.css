@@ -2020,7 +2020,7 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
 @media print { .hidden-print { display: none !important; } }
 body { background-image: url("../assets/sun_bg_tile_8.png"); background-repeat: repeat; background-position: center top; background-attachment: fixed; }
 
-p { color: white; }
+p { color: #dbdbdb; }
 
 h1 { color: white; }
 
@@ -2028,11 +2028,11 @@ h2 { color: white; margin-top: 40.5px; margin-bottom: 6.75px; }
 
 h3 { color: white; text-transform: uppercase; margin-bottom: 6.75px; }
 
-a { color: #fffbb5; }
+a { color: #e2de8a; }
 
 @media (min-width: 768px) { .lead { font-size: 18px; } }
 
-.btn { color: #333; background-color: #fffbb5; border-color: #ffda22; font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif; }
+.btn { color: #555; background-color: #e2de8a; border-color: #e2c42f; font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif; }
 
 .section-header { margin-top: 0; }
 
@@ -2061,11 +2061,15 @@ a { color: #fffbb5; }
 
 .post-title-link { margin-top: 0; }
 
-.navbar-brand { font-weight: 700; }
+.navbar-default { color: #555; border-color: #e2c42f; }
 
-.navbar { background-color: #fffbb5; border-color: #ffda22; font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif; }
+.navbar-default .navbar-brand { color: #555; font-weight: 700; }
+
+.navbar { color: #555; background-color: #e2de8a; border-color: #e2c42f; font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif; }
 
 .navbar-static-top { margin-bottom: 54px; }
+
+.navbar-default .navbar-toggle { border-color: #e2c42f; }
 
 .page-archive { margin-bottom: 54px; }
 
