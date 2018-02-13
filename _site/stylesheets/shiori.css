@@ -2018,7 +2018,9 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
 @media print { .visible-print-inline-block { display: inline-block !important; } }
 
 @media print { .hidden-print { display: none !important; } }
-body { background-image: url("../assets/sun_bg_tile_8.png"); background-repeat: repeat; background-position: center top; background-attachment: fixed; color: #dbdbdb; }
+body { color: #dbdbdb; }
+
+#bg { background-image: url("../assets/sun_bg_tile_8.png"); background-repeat: repeat; background-position: center top; background-attachment: fixed; }
 
 p { color: #dbdbdb; }
 

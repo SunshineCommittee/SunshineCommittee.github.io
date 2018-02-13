@@ -70,11 +70,14 @@ $space-sm: $line-height-computed * 1.5;
 $space-md: $line-height-computed * 2;
 
 body {
+  color: $almost-white;
+}
+
+#bg{
   background-image: url("../assets/sun_bg_tile_8.png");
   background-repeat: repeat;
   background-position: center top;
   background-attachment: fixed;
-  color: $almost-white;
 }
 
 p {
