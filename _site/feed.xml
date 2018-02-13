@@ -3,10 +3,10 @@
   <channel>
     <title>Sunshine Committee</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 12 Feb 2018 19:55:17 -0500</pubDate>
-    <lastBuildDate>Mon, 12 Feb 2018 19:55:17 -0500</lastBuildDate>
+    <link>https://sunshinecommittee.github.io//</link>
+    <atom:link href="https://sunshinecommittee.github.io//feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 12 Feb 2018 20:03:00 -0500</pubDate>
+    <lastBuildDate>Mon, 12 Feb 2018 20:03:00 -0500</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -22,8 +22,8 @@
 &lt;p&gt;Filler text&lt;/p&gt;
 </description>
         <pubDate>Mon, 12 Feb 2018 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/heist-on-hiatus</link>
-        <guid isPermaLink="true">http://localhost:4000/heist-on-hiatus</guid>
+        <link>https://sunshinecommittee.github.io//heist-on-hiatus</link>
+        <guid isPermaLink="true">https://sunshinecommittee.github.io//heist-on-hiatus</guid>
         
         
       </item>
@@ -48,8 +48,8 @@
 
 </description>
         <pubDate>Sat, 10 Feb 2018 22:43:02 -0500</pubDate>
-        <link>http://localhost:4000/welcome-to-jekyll</link>
-        <guid isPermaLink="true">http://localhost:4000/welcome-to-jekyll</guid>
+        <link>https://sunshinecommittee.github.io//welcome-to-jekyll</link>
+        <guid isPermaLink="true">https://sunshinecommittee.github.io//welcome-to-jekyll</guid>
         
         
         <category>jekyll</category>
