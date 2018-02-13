@@ -2036,7 +2036,7 @@ a:hover { color: #c9c578; }
 
 .btn { color: #555; background-color: #e2de8a; border-color: #e2c42f; font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif; }
 
-.btn-primary:hover { color: #555; background-color: #c9c578; border-color: #e2c42f; font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif; }
+.btn-primary:focus, .btn-primary:hover { color: #555; background-color: #c9c578; border-color: #e2c42f; font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif; }
 
 .section-header { margin-top: 0; }
 

@@ -115,7 +115,7 @@ a:hover{
   font-family: $headings-font-family;
 }
 
-.btn-primary:hover{
+.btn-primary:focus, .btn-primary:hover{
   color: $gray-dark;
   background-color: $cagliostro-gold-hover;
   border-color: $sunny-orange; 
