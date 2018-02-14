@@ -2030,11 +2030,17 @@ h2 { color: white; margin-top: 40.5px; margin-bottom: 6.75px; }
 
 h3 { color: white; text-transform: uppercase; margin-bottom: 6.75px; }
 
+hr { border-top: 1px solid #eeeeee; }
+
 a { color: #e2de8a; }
 
-a:hover { color: #c9c578; }
+a:hover, a:focus { color: #c9c578; }
 
-th, td { padding-top: 14px; padding-right: 7px; }
+th, td { padding-top: 15px; padding-right: 7px; }
+
+.row { display: flex; }
+
+.sidebar-div { border-top: solid; border-color: white; border-top-width: 1px; padding-bottom: 15px; }
 
 @media (min-width: 768px) { .lead { font-size: 18px; } }
 
@@ -2061,11 +2067,9 @@ th, td { padding-top: 14px; padding-right: 7px; }
 
 .post-content { margin-bottom: 54px; }
 
-.post-footer { border-top: 1px solid #eeeeee; padding-top: 40.5px; margin-bottom: 54px; }
+.post-footer { border-top: 1px solid white; }
 
-.post-navs { margin-bottom: 54px; }
-
-.post-nav { margin-bottom: 40.5px; }
+.post-nav { padding-top: 15px; margin-bottom: 15px; }
 
 .post-title-link { margin-top: 0; }
 
@@ -2079,13 +2083,15 @@ th, td { padding-top: 14px; padding-right: 7px; }
 
 .navbar-default .navbar-toggle { border-color: #e2c42f; }
 
-.page-archive { margin-bottom: 54px; }
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus { background-color: #c9c578; }
+
+.page-archive { margin-bottom: 54px; border-bottom: solid; border-bottom-width: 1px; border-color: white; }
 
 .footer { margin: 40.5px 0 40.5px; font-size: 13px; color: #aaa; }
 
-.home-read-more { margin-bottom: 40px; }
+.home-read-more { margin-bottom: 27px; }
 
-.col-sm-8 { border-color: white; border-right-width: 1px; border-right-style: solid; }
+#content-body { padding-right: 15px; }
 
 .gist table { border: none !important; width: auto !important; }
 .gist td { border-left: none !important; border-top: none !important; border-bottom: none !important; }
