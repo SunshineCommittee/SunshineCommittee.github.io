@@ -2038,8 +2038,6 @@ a:hover, a:focus { color: #c9c578; }
 
 th, td { padding-top: 15px; padding-right: 7px; }
 
-.row { display: flex; }
-
 .sidebar-div { border-top: solid; border-color: white; border-top-width: 1px; padding-bottom: 15px; }
 
 @media (min-width: 768px) { .lead { font-size: 18px; } }
