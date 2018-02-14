@@ -222,13 +222,17 @@ th, td{
 }
 .navbar-static-top {
   margin-bottom: $space-md;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
 }
 .navbar-default .navbar-toggle {
   border-color: $sunny-orange;
 }
 
+
+
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus  {
-  background-color: $cagliostro-gold-hover;
+  background-color: $cagliostro-gold-hover !important;
 }
 
 .page-archive {

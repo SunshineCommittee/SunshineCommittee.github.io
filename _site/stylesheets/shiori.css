@@ -2079,11 +2079,11 @@ th, td { padding-top: 15px; padding-right: 7px; }
 
 .navbar { color: #555; background-color: #e2de8a; border-color: #e2c42f; font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif; }
 
-.navbar-static-top { margin-bottom: 54px; }
+.navbar-static-top { margin-bottom: 54px; border-bottom-left-radius: 6px; border-bottom-right-radius: 6px; }
 
 .navbar-default .navbar-toggle { border-color: #e2c42f; }
 
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus { background-color: #c9c578; }
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus { background-color: #c9c578 !important; }
 
 .page-archive { margin-bottom: 54px; border-bottom: solid; border-bottom-width: 1px; border-color: white; }
 
