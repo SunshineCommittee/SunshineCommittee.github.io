@@ -37,6 +37,9 @@ exclude:
   - "Gemfile"
   - "Gemfile.lock"
 permalink: :title
+collections: 
+  games:
+    output: true
 defaults:
   -
     scope:
@@ -50,7 +53,11 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-
+  - scope:
+      path: ""
+      type: "games"
+    values:
+      layout: "post"
       
 
 
