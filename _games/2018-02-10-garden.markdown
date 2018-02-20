@@ -1,7 +1,8 @@
 ---
 title:  "gARden"
+brief: "An augmented relaity gardening app for mobile devices!"
 ---
-A n augmented relaity gardening app for mobile devices.
+An augmented relaity gardening app for mobile devices.
 <!--more-->
 
 A lot more to say and do about gARden would go here.

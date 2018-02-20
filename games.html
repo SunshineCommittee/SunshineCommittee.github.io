@@ -14,7 +14,7 @@ permalink: "games/index.html"
   {% endif %}
   <p>
     <a href="{{ post.url | prepend:site.baseurl}}" class="post-title-archive">{{ post.title }}</a>
-    <small class="text-muted">{{ post.date | date: "%B" }}</small>
+    <small class="text-muted">{{ post.brief }}</small>
   </p>
 {% endfor %}
 </div>
