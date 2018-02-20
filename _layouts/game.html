@@ -9,7 +9,12 @@ layout: default_no_sidebar
 <div class="post-content">
   {{ content }}
 </div>
-<div class="post-footer">
+<hr>
+  <div class="home-read-more">
+    <a href="{{ "/games" | prepend:site.baseurl }}" class="btn btn-primary btn-block btn-lg">View All {{ site.games | size }} Games →</a>
+  </div>
+</hr>
+<!--<div class="post-footer">
   {% include post-footer.html %}
 </div>
 {% if site.data.theme.show_post_navs %}
@@ -41,4 +46,4 @@ layout: default_no_sidebar
       {% endif %}
     </div>
   {% endif %}
-{% endif %}
+{% endif %}-->
