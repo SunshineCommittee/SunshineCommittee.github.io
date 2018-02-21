@@ -13,7 +13,7 @@ permalink: "games/index.html"
     </h2>
   {% endif %}
   <p>
-    <a href="{{ post.url | prepend:site.baseurl}}" class="post-title-archive">{{ post.title }}</a>
+    <a href="{{ post.url | prepend:site.baseurl}}" class="post-title-archive"><img src= {{ post.icon }} class="game-icon"/>{{ post.title }}</a>
     <small class="text-muted">{{ post.brief }}</small>
   </p>
 {% endfor %}

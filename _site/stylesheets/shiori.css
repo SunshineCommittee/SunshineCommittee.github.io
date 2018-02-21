@@ -2091,6 +2091,10 @@ th, td { padding-top: 15px; padding-right: 7px; }
 
 #content-body { padding-right: 15px; }
 
+.game-icon { width: 32px; height: 32px; margin-right: 15px; }
+
+.game-logo { width: 500px; }
+
 .gist table { border: none !important; width: auto !important; }
 .gist td { border-left: none !important; border-top: none !important; border-bottom: none !important; }
 .gist td.line-data { border-right: none !important; line-height: 1.4 !important; }
