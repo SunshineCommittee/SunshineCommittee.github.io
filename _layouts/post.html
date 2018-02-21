@@ -19,8 +19,8 @@ layout: default
         <div class="col-md-6 post-nav">
           <h3 class="section-header">
             Older
-            <span class="text-muted"> &middot; </span>
-            <a href="{{ "/archive" | prepend:site.baseurl }}">View Archive ({{ site.posts.size }})</a>
+            <!-- <span class="text-muted"> &middot; </span>
+            <a href="{{ "/archive" | prepend:site.baseurl }}">View Archive ({{ site.posts.size }})</a> -->
           </h3>
           <h2 class="post-title-link"><a href="{{ page.previous.url | prepend:site.baseurl }}">{{ page.previous.title }}</a></h2>
           {{ page.previous.excerpt | markdownify }}
@@ -30,10 +30,10 @@ layout: default
         <div class="col-md-6 post-nav">
           <h3 class="section-header">
             Newer
-            {% unless page.previous %}
+            <!-- {% unless page.previous %}
               <span class="text-muted"> &middot; </span>
               <a href="{{ "/archive" | prepend:site.baseurl }}">View Archive ({{ site.posts.size }})</a>
-            {% endunless %}
+            {% endunless %} -->
           </h3>
           <h2 class="post-title-link"><a href="{{ page.next.url | prepend:site.baseurl }}">{{ page.next.title }}</a></h2>
           {{ page.next.excerpt | markdownify }}
@@ -42,3 +42,7 @@ layout: default
     </div>
   {% endif %}
 {% endif %}
+<hr>
+<div class="home-read-more">
+  <a href="{{ "/archive" | prepend:site.baseurl }}" class="btn btn-primary btn-block btn-lg">View All {{ site.posts | size }} Articles →</a>
+</div>
