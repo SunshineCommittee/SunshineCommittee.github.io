@@ -12,9 +12,11 @@ An augmented reality gardening app for mobile devices!
 
 Using printable real-world markers, you can decorate your desk, office or home with digital plants, which require even less maintenance than real ones! The plants are persistently stored, and grow in real time, so you can watch them blossom as the days go by. 
 
-<iframe width="420" height="315"
-src="https://www.youtube.com/embed/wbtoKd5Ye2I">
+<div class="video-container">
+<iframe width="853" height="480" src="https://www.youtube.com/embed/wbtoKd5Ye2I" frameborder="0" allowfullscreen>
 </iframe>
+</div>
+
 
 <!-- <div markdown="1">
 
