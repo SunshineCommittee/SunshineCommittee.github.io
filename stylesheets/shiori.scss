@@ -117,6 +117,16 @@ th, td{
   padding-right: 7px;
 }
 
+.no-border {
+  table {
+    border: none !important;
+    width: auto !important;
+  }
+  td {
+    border: none !important;
+  }
+}
+
 .row{
   //display: flex;
 }
