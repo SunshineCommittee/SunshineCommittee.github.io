@@ -12,3 +12,7 @@
   @extend .table;
   @extend .table-bordered;
 }
+
+.no-border {
+  border: none;
+}
