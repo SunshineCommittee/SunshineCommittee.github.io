@@ -117,10 +117,13 @@ th, td{
   padding-right: 7px;
 }
 
-.row{
-  //display: flex;
-}
+.flex-row {
+  display: inline-block;
 
+  div {
+    padding: 5px;
+  }
+}
 
 .sidebar-div{
   border-bottom: solid;
