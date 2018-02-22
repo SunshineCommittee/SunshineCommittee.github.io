@@ -2038,7 +2038,7 @@ a:hover, a:focus { color: #c9c578; }
 
 th, td { padding-top: 15px; padding-right: 7px; }
 
-.sidebar-div { border-top: solid; border-color: white; border-top-width: 1px; padding-bottom: 15px; }
+.sidebar-div { border-bottom: solid; border-color: white; border-bottom-width: 1px; padding-bottom: 15px; }
 
 @media (min-width: 768px) { .lead { font-size: 18px; } }
 
@@ -2083,7 +2083,7 @@ th, td { padding-top: 15px; padding-right: 7px; }
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus { background-color: #c9c578 !important; }
 
-.page-archive { margin-bottom: 54px; border-bottom: solid; border-bottom-width: 1px; border-color: white; }
+.page-archive { padding-bottom: 10px; margin-bottom: 54px; border-bottom: solid; border-bottom-width: 1px; border-color: white; }
 
 .footer { margin: 40.5px 0 40.5px; font-size: 13px; color: #aaa; }
 
