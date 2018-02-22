@@ -117,20 +117,14 @@ th, td{
   padding-right: 7px;
 }
 
-.no-border {
-  table {
-    border: none !important;
-    width: auto !important;
-  }
-  td {
-    border: none !important;
+.flex-row {
+  display: inline-block;
+
+  div {
+    padding: 10px;
+    padding-left: 0px;
   }
 }
-
-.row{
-  //display: flex;
-}
-
 
 .sidebar-div{
   border-bottom: solid;
@@ -228,8 +222,6 @@ th, td{
 }
 .navbar-static-top {
   margin-bottom: $space-md;
-  border-bottom-left-radius: 6px;
-  border-bottom-right-radius: 6px;
 }
 .navbar-default .navbar-toggle {
   border-color: $sunny-orange;
@@ -262,6 +254,21 @@ th, td{
 
 #content-body{
  padding-right: 15px;
+}
+
+.contact-info{
+  padding: 0px !important;
+}
+
+.contact-avatar{
+  max-height: 128px; 
+  max-width: 128px;
+  min-width: 128px;
+}
+
+.contact-avatar > > img{
+  max-height: 100%; 
+  max-width: 100%;
 }
 
 .game-icon {
