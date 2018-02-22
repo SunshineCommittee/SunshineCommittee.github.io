@@ -40,6 +40,9 @@ permalink: :title
 collections: 
   games:
     output: true
+  contacts:
+    output: false
+
 defaults:
   -
     scope:
@@ -53,7 +56,8 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-  - scope:
+  - 
+    scope:
       path: ""
       type: "games"
     values:

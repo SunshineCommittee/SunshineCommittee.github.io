@@ -15,15 +15,15 @@ layout: page
     <h3>Tom Farro</h3>
 
     <div class="flex-row">
-        <div class="col col-sm-12 col-md-3 contact-avatar"><img src="https://pbs.twimg.com/profile_images/660827265266278400/id_bBY4Z_400x400.png"></div>
+        <div class="col col-sm-12 col-md-3 contact-avatar"><img src="../assets/tomicon.png"></div>
         <div class="col col-sm-12 col-md-9">
-            <b>Tom Farro</b> went to school for Robotics Engineering, but soon found that he preferred making games rather than machines.
+            Tom went to school for Robotics Engineering, but soon found that he preferred making games rather than machines.
             <div>
                 <div class="contact-info">
-                    <span><i class="fa fa-twitter fa-lg"></i> <a href="https://twitter.com/FomTarro">@FomTarro</a></span> 
+                    <span class="fa fa-twitter fa-lg"></span> <a href="https://twitter.com/FomTarro">@FomTarro</a>
                 </div>
                 <div class="contact-info">
-                    <span><i class="fa fa-external-link fa-lg"></i> <a href="http://tomfarro.com">http://tomfarro.com</a></span>
+                    <span class="fa fa-external-link fa-lg"></span> <a href="http://tomfarro.com">http://tomfarro.com</a>
                 </div>
             </div>
         </div>
@@ -34,18 +34,22 @@ layout: page
     <div class="flex-row">
             <div class="col col-sm-12 col-md-3 contact-avatar"><img src="../assets/kellyicon.png"></div>
             <div class="col col-sm-12 col-md-9">
-                <b>Kelly Zhang</b> placeholder text.
+                Kelly placeholder text.
                 <div>
                     <div class="contact-info">
-                        <span><i class="fa fa-twitter fa-lg"></i> <a href="https://twitter.com/chiffles_">@chiffles_</a></span> 
+                        <span class="fa fa-twitter fa-lg"></span> <a href="https://twitter.com/chiffles_">@chiffles_</a>
                     </div>
                     <div class="contact-info">
-                        <span><i class="fa fa-external-link fa-lg"></i> <a href="http://kelly.coffee">http://kelly.coffee</a></span>
+                        <span class="fa fa-external-link fa-lg"></span> <a href="http://kelly.coffee">http://kelly.coffee</a>
                     </div>
                 </div>
             </div>
         </div>
 </p>
+
+{% for conatact in site.contacts %}
+<span>{{ contact.name }}</span>
+{% endfor %}
 
 </div>
 
