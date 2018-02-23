@@ -207,6 +207,22 @@ th, td{
   margin-top: 0;
 }
 
+.custom-controls {
+  .prev, .next{
+    background-image: url("../assets/Arrow.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    border: none;
+    border-radius: 0px;
+  }
+
+  .prev {
+    transform: rotate(180deg);
+  }
+}
+
 .navbar-default {
   color: $gray-dark;
   border-color: $sunny-orange;

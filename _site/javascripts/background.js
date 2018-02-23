@@ -21,4 +21,3 @@ $(window).scroll(resizeBackground);
 $(window).resize(resizeBackground);
 $(document).resize(resizeBackground);
 resizeBackground();
-

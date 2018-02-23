@@ -2073,6 +2073,9 @@ th, td { padding-top: 15px; padding-right: 7px; }
 
 .post-title-link { margin-top: 0; }
 
+.custom-controls .prev, .custom-controls .next { background-image: url("../assets/Arrow.png"); background-size: contain; background-repeat: no-repeat; background-position: center; border: none; border-radius: 0px; }
+.custom-controls .prev { transform: rotate(180deg); }
+
 .navbar-default { color: #555; border-color: #e2c42f; }
 
 .navbar-default .navbar-brand { color: #555; font-weight: 700; }
