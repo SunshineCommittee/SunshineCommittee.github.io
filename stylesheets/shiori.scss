@@ -236,7 +236,7 @@ th, td{
 }
 
 .page-archive {
-  padding-bottom: 10px;
+  padding-bottom: $space-xs;
   margin-bottom: $space-md;
   border-bottom: solid;
   border-bottom-width: 1px;
@@ -296,7 +296,9 @@ th, td{
   width: 128px;
   background-position: center center;
   background-size: cover;
+  margin: 0px;
   margin-right: 15px;
+  margin-top: 15px;
 }
 
 .video-container {

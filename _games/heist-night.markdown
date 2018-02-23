@@ -15,4 +15,8 @@ Heist Night is a local multiplayer game of cops-and-robbers, with a turnbased st
 Players gather around the television and connect in using their mobile device as a controller, providing them each with a private screen, and allowing each player to sneak around without fear of screen-cheating!
 No external app is necessary to play, so anyone on any device can join the fun!
 
-Winner of the MassDiGI Game Challenge "Best College Alpha" Award in 2016, Heist Night was also chosen to be showcased at the 2016 Boston Festival of Indie Games.
+Heist Night has demoed at the following events:
+<li> MassDiGI Game Challenge 2016 <i>(Winner of "Best College Alpha)</i>
+<li> Boston Festival of Indie Games 2016
+<li> RPI GameFest 2017
+

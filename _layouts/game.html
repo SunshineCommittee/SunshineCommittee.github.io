@@ -12,8 +12,10 @@ layout: default
 <div class="post-content">
   {{ content }}
   <div>
-    <h2>Gallery</h2>
+    <hr>
+    <h3>Gallery</h3>
     {% assign dir = '/' | append: page.gallery_tag | append: '/' %}
+    <div id="links">
     {% for image in site.static_files %}
     {% if image.path contains dir %}
 
@@ -22,13 +24,27 @@ layout: default
       <!-- <img src= {{ image.path }} /> -->
     {% endif %}
     {% endfor %}
+    </div>
   </div>
 </div>
 <hr>
   <div class="home-read-more">
-    <a href="{{ "/games" | prepend:site.baseurl }}" class="btn btn-primary btn-block btn-lg">View All Games →</a>
+    <a href="{{ "/games" | prepend:site.baseurl }}" class="btn btn-primary btn-block btn-lg">← Back to All Games</a>
   </div>
 </hr>
+
+<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls" data-hide-page-scrollbars="false" style="display: none;">
+    <div class="slides" style="width: 3480px"></div>
+    <h3 class="title"></h3>
+    <a class="prev"></a>
+    <a class="next"></a>
+    <a class="close"><img src="../assets/x-button.png" style="width:32px; height:32px;"></a>
+</div>
+
+{% include scripts.html %}
+
+
+
 <!--<div class="post-footer">
   {% include post-footer.html %}
 </div>
