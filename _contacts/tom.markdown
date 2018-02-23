@@ -1,5 +1,7 @@
 ---
 name:  "Tom Farro"
-bio: "An augmented reality gardening app for mobile devices!"
-avatar: "../assets/garden_logo.png"
+bio: "Tom went to school for Robotics Engineering, but soon found that he preferred making games rather than machines."
+avatar: "../assets/tomicon.png"
+twitter: "FomTarro"
+website: "http://tomfarro.com"
 ---

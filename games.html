@@ -3,7 +3,7 @@ title: Games
 permalink: "games/index.html"
 ---
 <div class="page-archive">
-{% assign items = (site.games | sort: 'date') | reverse %}
+{% assign items = site.games | sort: 'date' | reverse %}
 {% for post in items %}
   {% assign post_year = post.date | date: "%Y" %}
   {% assign newer_post_year = post.next.date | date: "%Y" %}

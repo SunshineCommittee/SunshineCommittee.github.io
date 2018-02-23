@@ -12,44 +12,45 @@ layout: page
     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
 </p>  
 <p>
-    <h3>Tom Farro</h3>
+{% assign team = site.contacts | sort: 'name' | reverse %}
+{% for contact in team %}
+
+    <h3>{{ contact.name }}</h3>
 
     <div class="flex-row">
-        <div class="col col-sm-12 col-md-3 contact-avatar"><img src="../assets/tomicon.png"></div>
+        <div class="col col-sm-12 col-md-3 contact-avatar"><img src= {{ contact.avatar }}></div>
         <div class="col col-sm-12 col-md-9">
-            Tom went to school for Robotics Engineering, but soon found that he preferred making games rather than machines.
+            {{ contact.bio }}
             <div>
+                {% assign twitter_url = 'https://twitter.com/' | append: contact.twitter %}
                 <div class="contact-info">
-                    <span class="fa fa-twitter fa-lg"></span> <a href="https://twitter.com/FomTarro">@FomTarro</a>
+                    <span class="fa fa-twitter fa-lg"></span> <a href= {{ twitter_url }}>@{{ contact.twitter }}</a>
                 </div>
                 <div class="contact-info">
-                    <span class="fa fa-external-link fa-lg"></span> <a href="http://tomfarro.com">http://tomfarro.com</a>
+                    <span class="fa fa-external-link fa-lg"></span> <a href={{ contact.website }} >{{ contact.website}}</a>
                 </div>
             </div>
         </div>
     </div>
 
-    <h3>Kelly Zhang</h3>
+{% endfor %}
+<!-- <h3>Kelly Zhang</h3>
 
-    <div class="flex-row">
-            <div class="col col-sm-12 col-md-3 contact-avatar"><img src="../assets/kellyicon.png"></div>
-            <div class="col col-sm-12 col-md-9">
-                Kelly placeholder text.
-                <div>
-                    <div class="contact-info">
-                        <span class="fa fa-twitter fa-lg"></span> <a href="https://twitter.com/chiffles_">@chiffles_</a>
-                    </div>
-                    <div class="contact-info">
-                        <span class="fa fa-external-link fa-lg"></span> <a href="http://kelly.coffee">http://kelly.coffee</a>
-                    </div>
+<div class="flex-row">
+        <div class="col col-sm-12 col-md-3 contact-avatar"><img src="../assets/kellyicon.png"></div>
+        <div class="col col-sm-12 col-md-9">
+            Kelly placeholder text.
+            <div>
+                <div class="contact-info">
+                    <span class="fa fa-twitter fa-lg"></span> <a href="https://twitter.com/chiffles_">@chiffles_</a>
+                </div>
+                <div class="contact-info">
+                    <span class="fa fa-external-link fa-lg"></span> <a href="http://kelly.coffee">http://kelly.coffee</a>
                 </div>
             </div>
         </div>
-</p>
-
-{% for conatact in site.contacts %}
-<span>{{ contact.name }}</span>
-{% endfor %}
+    </div>
+</p> -->
 
 </div>
 

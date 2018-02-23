@@ -11,6 +11,15 @@ layout: default
 </div>
 <div class="post-content">
   {{ content }}
+  <div>
+    <h2>Gallery</h2>
+    {% assign dir = '/' | append: page.gallery_tag | append: '/' %}
+    {% for image in site.static_files %}
+    {% if image.path contains dir %}
+      <img src= {{ image.path }} />
+    {% endif %}
+    {% endfor %}
+  </div>
 </div>
 <hr>
   <div class="home-read-more">
