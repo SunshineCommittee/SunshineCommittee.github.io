@@ -42,9 +42,7 @@ collections:
     output: true
   contacts:
     output: false
-  # gallery: 
-  #   output: false
-
+    
 defaults:
   -
     scope:
@@ -64,11 +62,6 @@ defaults:
       type: "games"
     values:
       layout: "game"
-  # -
-  #   scope:
-  #     path: "assets/gallery/hn"
-  #   values:
-  #     tag: "hn"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
