@@ -213,6 +213,7 @@ th, td{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    background: none;
 
     border: none;
     border-radius: 0px;
@@ -220,6 +221,9 @@ th, td{
 
   .prev {
     transform: rotate(180deg);
+  }
+  .close{
+    opacity: 0.5;;
   }
 }
 
