@@ -290,6 +290,15 @@ th, td{
   max-width: 100%;
 }
 
+.gallery-thumbnail{
+  display: inline-block;
+  height: 128px;
+  width: 128px;
+  background-position: center center;
+  background-size: cover;
+  margin-right: 15px;
+}
+
 .video-container {
   position: relative;
   padding-bottom: 56.25%;

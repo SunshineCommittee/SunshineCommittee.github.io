@@ -16,7 +16,10 @@ layout: default
     {% assign dir = '/' | append: page.gallery_tag | append: '/' %}
     {% for image in site.static_files %}
     {% if image.path contains dir %}
-      <img src= {{ image.path }} />
+
+      {% assign bg = "background-image: url(.." | append: image.path | append: ");" %}
+      <a href="{{ image.path }}" class="gallery-thumbnail thumbnail" style="{{ bg }}" data-gallery="#blueimp-gallery"></a>
+      <!-- <img src= {{ image.path }} /> -->
     {% endif %}
     {% endfor %}
   </div>
