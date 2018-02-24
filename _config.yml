@@ -41,7 +41,7 @@ collections:
   games:
     output: true
   contacts:
-    output: false
+    output: true
     
 defaults:
   -
@@ -62,6 +62,12 @@ defaults:
       type: "games"
     values:
       layout: "game"
+  - 
+    scope:
+      path: ""
+      type: "contacts"
+    values:
+      layout: "contact"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

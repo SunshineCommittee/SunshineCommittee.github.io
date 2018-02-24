@@ -24,5 +24,5 @@ Heist Night has demoed at the following events:
 
 By virtue of being a borwser-based game, Heist Night uses cool technology such as React and Websockets to facilitate its gameplay and networking.
 
-Currently, Heist Night development is on hiatus due to scoping issues, as the team works on [gARden](../games/garden) in its stead.
+Currently, Heist Night development is [on hiatus due to scoping issues](../hard-decisions), as the team works on [gARden](../games/garden) in its stead.
 

@@ -6,33 +6,22 @@ layout: page
 
 <div class="page-archive">
     <p>
-        A band of New England's most dashing rogues, set out to gleam a ray of sunshine in to your home through digital entertaimment.
+        The <b>Sunshine Committee</b> was assembled in early 2016 as a team to work on our first project, Heist Night, following its successful run at the MassDiGI Game Pitch Challenge that February. 
     </p>
     <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-    </p>  
+        We enjoy working on novel concepts that bring people together in new ways, and hope to shine a ray of sunshine into your home through our brand of digital entertainment.
+    </p>
     <p>
     {% assign team = site.contacts | sort: 'name' | reverse %}
     {% for contact in team %}
-        <h3>{{ contact.name }}</h3>
-        <div class="flex-row">
-            <div class="col col-sm-12 col-md-3 contact-avatar"><img src= {{ contact.avatar }}></div>
-            <div class="col col-sm-12 col-md-9">
-                {{ contact.bio }}
-                <div>
-                    <div class="contact-info">
-                        {% assign twitter_url = 'https://twitter.com/' | append: contact.twitter %}
-                        <span class="fa fa-twitter fa-lg"></span> <a href= {{ twitter_url }}>@{{ contact.twitter }}</a>
-                    </div>
-                    <div class="contact-info">
-                        <span class="fa fa-external-link fa-lg"></span> <a href={{ contact.website }} >{{ contact.website }}</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        {% if contact.primary == true %}
+            {{ contact }}
+        {% endif %}
+    {% endfor %}
     </p>
-{% endfor %}
+    <p>   
+        In addition to these two mainstays, the team occasionally includes some of our friends in on-and-off contract roles when the need arises. 
+    </p>
+
 </div>
 

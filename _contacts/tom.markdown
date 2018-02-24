@@ -4,4 +4,5 @@ bio: "Tom went to school for Robotics Engineering, but soon found that he prefer
 avatar: "../assets/tomicon.png"
 twitter: "FomTarro"
 website: "http://tomfarro.com"
+primary: true
 ---
