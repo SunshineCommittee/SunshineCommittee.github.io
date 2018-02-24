@@ -4,13 +4,11 @@ permalink: "about/index.html"
 layout: page
 ---
 
-
 <div class="page-archive">
     <p>
         A band of New England's most dashing rogues, set out to gleam a ray of sunshine in to your home through digital entertaimment.
     </p>
     <p>
-
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
@@ -24,12 +22,12 @@ layout: page
             <div class="col col-sm-12 col-md-9">
                 {{ contact.bio }}
                 <div>
-                    {% assign twitter_url = 'https://twitter.com/' | append: contact.twitter %}
                     <div class="contact-info">
+                        {% assign twitter_url = 'https://twitter.com/' | append: contact.twitter %}
                         <span class="fa fa-twitter fa-lg"></span> <a href= {{ twitter_url }}>@{{ contact.twitter }}</a>
                     </div>
                     <div class="contact-info">
-                        <span class="fa fa-external-link fa-lg"></span> <a href={{ contact.website }} >{{ contact.website}}</a>
+                        <span class="fa fa-external-link fa-lg"></span> <a href={{ contact.website }} >{{ contact.website }}</a>
                     </div>
                 </div>
             </div>
