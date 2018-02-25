@@ -13,6 +13,8 @@
     <link rel="shortcut icon" href="{{ "/favicon.ico" | prepend:site.baseurl }}">
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
 
+    <meta name="twitter:card" content="summary_large_image">
+
     {% if page.brief %}
     <meta property="twitter:description" content= "{{ page.brief }}">
     <meta property="og:description" content= "{{ page.brief }}">
