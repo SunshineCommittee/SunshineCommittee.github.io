@@ -14,12 +14,12 @@
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
 
     {% if page.brief %}
-    <meta property="twitter:description" content="{{ page.logo | replace '..','' | prepend:site.url }}">
+    <meta property="twitter:description" content= "{{ page.brief }}">
     <meta property="og:description" content= "{{ page.brief }}">
     {% endif %}
 
     {% if page.title %}
-    <meta property="twitter:title" content="{{ page.logo | replace '..','' | prepend:site.url }}">
+    <meta property="twitter:title" content= "{{ page.title }}">
     <meta property="og:title" content= "{{ page.title }}">
     {% endif %}
 
