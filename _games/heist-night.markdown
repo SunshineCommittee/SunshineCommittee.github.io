@@ -16,13 +16,23 @@ Players gather around the television and connect in using their mobile device as
 No external app is necessary to play, so anyone on any device can join the fun!
 
 Heist Night has demoed at the following events:
+<ul>
 <li> MassDiGI Game Challenge 2016 <i>(Winner of "Best College Alpha")</i> </li>
 <li> Boston Festival of Indie Games 2016 </li>
 <li> RPI GameFest 2017 </li>
+</ul>
 
-<br>
 
-By virtue of being a borwser-based game, Heist Night uses cool technology such as React and Websockets to facilitate its gameplay and networking.
+
+By virtue of being a browser-based game, Heist Night uses cool technology such as React and Websockets to facilitate its gameplay and networking.
+
+
+For the big-screen portion of Heist Night, character models were lovingly rendered by our friend John Guerra.
+
+<div class="contact">
+{% assign john = site.contacts | where: "name", "John Guerra" | first %}
+{{ john }}
+</div>
 
 Currently, Heist Night development is [on hiatus due to scoping issues](../hard-decisions), as the team works on [gARden](../games/garden) in its stead.
 

@@ -5,8 +5,8 @@
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 24 Feb 2018 19:37:33 -0500</pubDate>
-    <lastBuildDate>Sat, 24 Feb 2018 19:37:33 -0500</lastBuildDate>
+    <pubDate>Sat, 24 Feb 2018 22:05:26 -0500</pubDate>
+    <lastBuildDate>Sat, 24 Feb 2018 22:05:26 -0500</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -19,21 +19,21 @@
 
 &lt;h2 id=&quot;hard-decisions&quot;&gt;Hard Decisions&lt;/h2&gt;
 
-&lt;p&gt;To be perfectly terse: &lt;a href=&quot;hn&quot;&gt;Heist Night&lt;/a&gt; development has been suspended for the moment.&lt;/p&gt;
+&lt;p&gt;To be perfectly terse: &lt;a href=&quot;../games/heist-night&quot;&gt;Heist Night&lt;/a&gt; development has been suspended for the moment.&lt;/p&gt;
 
-&lt;p&gt;There’s an axiom which says something along the lines of &lt;i&gt;“the more emotional investments you put in something, the harder that thing becomes to leave.”&lt;/i&gt; Naturally, this holds doubly true for creative endeavors, where emotional investments are high. After all, the characters we crafted for &lt;a href=&quot;hn&quot;&gt;Heist Night&lt;/a&gt; all feel like our beloved children! But sometimes, one needs to take a step back and try and put these investments aside to look at the whole picture, as hard as that may be.&lt;/p&gt;
+&lt;p&gt;There’s an axiom which says something along the lines of &lt;i&gt;“the more emotional investments you put in something, the harder that thing becomes to leave.”&lt;/i&gt; Naturally, this holds doubly true for creative endeavors, where emotional investments are high. After all, the characters we crafted for &lt;a href=&quot;../games/heist-night&quot;&gt;Heist Night&lt;/a&gt; all feel like our beloved children! But sometimes, one needs to take a step back and try and put these investments aside to look at the whole picture, as hard as that may be.&lt;/p&gt;
 
-&lt;p&gt;Unfortunately, the fact of the matter is that &lt;a href=&quot;hn&quot;&gt;Heist Night&lt;/a&gt; has suffered greatly from scope creep, and we fell in to a difficult cycle of constantly re-evaluating how we wanted gameplay to work and feel. As a result, we found ourselves spinning our tires in the mud an awful lot, making very little tangible progress towards a releasable product.&lt;/p&gt;
+&lt;p&gt;Unfortunately, the fact of the matter is that &lt;a href=&quot;../games/heist-night&quot;&gt;Heist Night&lt;/a&gt; has suffered greatly from scope creep, and we fell in to a difficult cycle of constantly re-evaluating how we wanted gameplay to work and feel. As a result, we found ourselves spinning our tires in the mud an awful lot, making very little tangible progress towards a releasable product.&lt;/p&gt;
 
-&lt;p&gt;If you’ve been with us for the long haul, you’ll probably know that we’ve only had a handful of playable builds over the 2+ years that the game has been in development; there’s a reason our screenshots and updates on Twitter have been so staggered and unsubstantial. We hope to return to &lt;a href=&quot;hn&quot;&gt;Heist Night&lt;/a&gt; in the future, but for the time being, we need to set it down.&lt;/p&gt;
+&lt;p&gt;If you’ve been with us for the long haul, you’ll probably know that we’ve only had a handful of playable builds over the 2+ years that the game has been in development; there’s a reason our screenshots and updates on Twitter have been so staggered and unsubstantial. We hope to return to &lt;a href=&quot;../games/heist-night&quot;&gt;Heist Night&lt;/a&gt; in the future, but for the time being, we need to set it down.&lt;/p&gt;
 
 &lt;p&gt;Still, there’s another axiom that comes to mind, which says &lt;i&gt;“when one door closes, another one opens…”&lt;/i&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;new-growth&quot;&gt;New Growth&lt;/h2&gt;
 
-&lt;p&gt;Earlier this year, we protoyped an app called &lt;a href=&quot;gARden&quot;&gt;gARden&lt;/a&gt;, which is a little augmented reality gardening app for mobile. When we shared our pitch with the world, it was met with pretty warm reception.&lt;/p&gt;
+&lt;p&gt;Earlier this year, we protoyped an app called &lt;a href=&quot;../games/garden&quot;&gt;gARden&lt;/a&gt;, which is a little augmented reality gardening app for mobile. When we shared our pitch with the world, it was met with pretty warm reception.&lt;/p&gt;
 
-&lt;p&gt;It felt more contained in nature than &lt;a href=&quot;hn&quot;&gt;Heist Night&lt;/a&gt;, and had a much more clearly-defined scope. We feel as though we can actual bring gARden to a shippable state in a reasonable amount of time, and so after a long discussion, we decided that we’d like to go forward with this project. Now that we have this fancy new dev blog site, you can expect more frequent and detailed updates about production, in addition to our bite-sized Twitter posts!&lt;/p&gt;
+&lt;p&gt;It felt more contained in nature than &lt;a href=&quot;../games/heist-night&quot;&gt;Heist Night&lt;/a&gt;, and had a much more clearly-defined scope. We feel as though we can actual bring gARden to a shippable state in a reasonable amount of time, and so after a long discussion, we decided that we’d like to go forward with this project. Now that we have this fancy new dev blog site, you can expect more frequent and detailed updates about production, in addition to our bite-sized Twitter posts!&lt;/p&gt;
 
 &lt;p&gt;As always, thank you all for sticking with us along our journey! We have a bright new year ahead!&lt;/p&gt;
 
@@ -47,11 +47,11 @@
     
       <item>
         <title>New Site, Who This?</title>
-        <description>&lt;p&gt;Hey! Welcome to our brand new developent blog!&lt;/p&gt;
+        <description>&lt;p&gt;Hey! Welcome to our brand new development blog!&lt;/p&gt;
 
 &lt;!--more--&gt;
 
-&lt;p&gt;We’re hoping that this site will help to both keep you all more up-to-date with what we’re working on, and keep ourselves on a more structured development cycle.&lt;/p&gt;
+&lt;p&gt;We’re hoping that this site will help to both keep you more up-to-date with what we’re working on, and keep ourselves on a more structured development cycle.&lt;/p&gt;
 
 &lt;p&gt;Thanks for stopping by!&lt;/p&gt;
 </description>
