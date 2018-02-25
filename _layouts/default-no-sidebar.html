@@ -13,7 +13,7 @@
     <link rel="shortcut icon" href="{{ "/favicon.ico" | prepend:site.baseurl }}">
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
 
-    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:card" content="summary_small_image">
 
     {% if page.brief %}
     <meta property="twitter:description" content= "{{ page.brief }}">
@@ -26,7 +26,7 @@
     {% endif %}
 
     {% if page.logo %}
-    <meta property="twitter:image" content="{{ page.icon| replace: '..','' | prepend:site.url }}">
+    <meta property="twitter:image" content="{{ page.icon | replace: '..','' | prepend:site.url }}">
     <meta property="og:image" content="{{ page.icon | replace: '..','' | prepend:site.url }}">
     {% endif %}
     <!--[if lt IE 9]>
