@@ -1,17 +1,36 @@
 <div>
     <h3>{{ page.name }}</h3>
     <div class="flex-row">
-        <div class="col col-sm-12 col-md-3 contact-avatar"><img src= "{{ page.avatar }}"></div>
-        <div class="col col-sm-12 col-md-9">
-            {{ page.bio }}
+        {% if page.avatar %}
+            <div class="col col-sm-12 col-md-3 contact-avatar"><img src= "{{ page.avatar }}"></div>
+            <div class="col col-sm-12 col-md-9">
+        {% else %}
+            {% if page.bio or page.avatar %}
+                <div class="col col-sm-12 col-md-12">
+            {% else %}
+                <div class="col col-sm-12 col-md-12">
+            {% endif %}
+        {% endif %}
+            {% if page.bio %}
+                {{ page.bio }}
+            {% endif %}
             <div>
-                <div class="contact-info">
-                    {% assign twitter_url = 'https://twitter.com/' | append: page.twitter %}
-                    <span class="fa fa-twitter fa-lg"></span> <a target="_blank" href="{{ twitter_url }}">@{{ page.twitter }}</a>
-                </div>
-                <div class="contact-info">
-                    <span class="fa fa-external-link fa-lg"></span> <a target="_blank" href="{{ page.website }}" >{{ page.website }}</a>
-                </div>
+                {% if page.twitter %}
+                    <div class="contact-info">
+                        {% assign twitter_url = 'https://twitter.com/' | append: page.twitter %}
+                        <span class="fa fa-twitter fa-lg"></span> <a target="_blank" href="{{ twitter_url }}">@{{ page.twitter }}</a>
+                    </div>
+                {% endif %}
+                {% if page.website %}
+                    <div class="contact-info">
+                        <span class="fa fa-external-link fa-lg"></span> <a target="_blank" href="{{ page.website }}" >{{ page.website }}</a>
+                    </div>
+                {% endif %}
+                {% if page.email %}
+                    <div class="contact-info">
+                        <span class="fa fa-envelope fa-lg"></span> <a target="_blank" href="mailto:{{ page.email}}" >{{ page.email }}</a>
+                    </div>
+                {% endif %}
             </div>
         </div>
     </div>
