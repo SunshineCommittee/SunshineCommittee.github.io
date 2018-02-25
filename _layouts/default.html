@@ -14,14 +14,17 @@
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
 
     {% if page.brief %}
+    <meta property="twitter:description" content= "{{ page.brief }}">
     <meta property="og:description" content= "{{ page.brief }}">
     {% endif %}
 
     {% if page.title %}
+    <meta property="twitter:description" content= "{{ page.brief }}">
     <meta property="og:title" content= "{{ page.title }}">
     {% endif %}
 
     {% if page.thumbnail %}
+    <meta property="og:twitter" content="{{ page.thumbnail | prepend:site.url }}">
     <meta property="og:image" content="{{ page.thumbnail | prepend:site.url }}">
     {% endif %}
     <!--[if lt IE 9]>
