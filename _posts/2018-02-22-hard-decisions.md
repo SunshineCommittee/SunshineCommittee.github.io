@@ -3,7 +3,7 @@ title: "Hard Decisions, New Growth"
 date: "2018-02-22"
 author: "Tom Farro"
 brief: "It's been a hot minute! We have mixed bag of development updates about projects old and new that we'd like to share with you."
-thumbnail: "/assets/hn_ar_sketch.png"
+thumbnail: "assets/hn_ar_sketch.png"
 ---
 
 ![hiatus](../assets/hn_ar_sketch.png)
