@@ -8,8 +8,8 @@ gallery_tag: "garden"
 ---
 
 An augmented reality gardening app for mobile devices!
-
 <!--more-->
+## Summary
 
 Using printable real-world markers, you can decorate your desk, office or home with digital plants, which require even less maintenance than real ones! The plants are persistently stored, and grow in real time, so you can watch them blossom as the days go by. 
 
@@ -21,6 +21,13 @@ Check out our cool pitch video for more details!
 </div>
 <br>
 Development for gARden started mid-January as part of a hackathon project at WPI. We loved the idea so much that we devided to keep working on it, even after the event.
+
+## Additional Credits
+The 3D art assets for gARden are the wonderful work of our friend Chelsea Saunders.
+<div class="contact">
+{% assign pcrown = site.contacts | where: "name", "Chelsea Saunders" | first %}
+{{ pcrown }}
+</div>
 
 <!-- <div markdown="1">
 
