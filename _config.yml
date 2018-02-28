@@ -42,6 +42,8 @@ collections:
     output: true
   games:
     output: true
+  posts: 
+    output: true
     
 defaults:
   - 
@@ -56,18 +58,18 @@ defaults:
       type: "pages"
     values:
       layout: "default"
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
   - 
     scope:
       path: ""
       type: "games"
     values:
       layout: "game"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
 
 
 # Exclude from processing.

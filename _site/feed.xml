@@ -5,9 +5,67 @@
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 26 Feb 2018 12:30:46 -0500</pubDate>
-    <lastBuildDate>Mon, 26 Feb 2018 12:30:46 -0500</lastBuildDate>
+    <pubDate>Wed, 28 Feb 2018 12:52:24 -0500</pubDate>
+    <lastBuildDate>Wed, 28 Feb 2018 12:52:24 -0500</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>Contracts and Contests</title>
+        <description>&lt;p&gt;&lt;img src=&quot;../assets/pots.png&quot; alt=&quot;pots&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;With February coming to an end, it’s time for a brief reflection on the month.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;contracts&quot;&gt;Contracts&lt;/h2&gt;
+
+&lt;p&gt;We’re thrilled to formally announce a new collaboration partner for &lt;a href=&quot;../games/garden&quot;&gt;gARden&lt;/a&gt;. Please join us in welcoming Chelsea Saunders, aka PIXELATEDCROWN, aboard!&lt;/p&gt;
+
+&lt;div class=&quot;contact&quot;&gt;
+&lt;div&gt;
+    &lt;h3&gt;Chelsea Saunders&lt;/h3&gt;
+    &lt;div class=&quot;flex-row&quot;&gt;
+        
+            &lt;div class=&quot;col col-sm-12 col-md-3 contact-avatar&quot;&gt;&lt;img src=&quot;../assets/pcrownicon.png&quot; /&gt;&lt;/div&gt;
+            &lt;div class=&quot;col col-sm-12 col-md-9&quot;&gt;
+        
+            
+                Chelsea also goes by the alias PIXELATEDCROWN! She make things on the computer.
+            
+            &lt;div&gt;
+                
+                    &lt;div class=&quot;contact-info&quot;&gt;
+                        
+                        &lt;span class=&quot;fa fa-twitter fa-lg&quot;&gt;&lt;/span&gt; &lt;a target=&quot;_blank&quot; href=&quot;https://twitter.com/PIXELATEDCROWN&quot;&gt;@PIXELATEDCROWN&lt;/a&gt;
+                    &lt;/div&gt;
+                
+                
+                    &lt;div class=&quot;contact-info&quot;&gt;
+                        &lt;span class=&quot;fa fa-external-link fa-lg&quot;&gt;&lt;/span&gt; &lt;a target=&quot;_blank&quot; href=&quot;http://www.chelseasaunders.com/&quot;&gt;http://www.chelseasaunders.com/&lt;/a&gt;
+                    &lt;/div&gt;
+                
+                
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Chelsea is a wonderfully talented 3D artist, and as such will be helping us by producing the 3D art for &lt;a href=&quot;../games/garden&quot;&gt;gARden&lt;/a&gt; as a contractor. So far, she’s produced several adorable pots and plants for us, and we’re excited to even more in the futue.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/pincushion_sliders.gif&quot; alt=&quot;sunset&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;contests&quot;&gt;Contests&lt;/h2&gt;
+
+&lt;p&gt;Also, this weekend (March 2nd and 3rd), we will be participating in the &lt;a href=&quot;https://www.massdigi.org/gamechallenge/&quot;&gt;Mass DiGI Game Challenge&lt;/a&gt; with &lt;a href=&quot;../games/garden&quot;&gt;gARden&lt;/a&gt;! This year, the contest is being held on Becker College’s campus, so If you’re in the Worcester area, come on and stop by! We’ll have a demo build running, if you want to see some virtual plants for yourself!&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 28 Feb 2018 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/contracts-contests</link>
+        <guid isPermaLink="true">http://localhost:4000/contracts-contests</guid>
+        
+        
+      </item>
     
       <item>
         <title>Hard Decisions, New Growth</title>
