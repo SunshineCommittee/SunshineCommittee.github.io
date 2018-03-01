@@ -14,7 +14,7 @@ With February coming to an end, it's time for a brief reflection on the month.
 
 ## Contests
 
-Also, this weekend (March 2nd and 3rd), we will be participating in the [Mass DiGI Game Challenge][massdigi] with [gARden][garden]! This year, the contest is being held on Becker College's campus, so If you're in the Worcester area, come on and stop by! We'll have a demo build running, if you want to see some virtual plants for yourself! 
+This weekend (March 2nd and 3rd), we will be participating in the [Mass DiGI Game Challenge][massdigi] with [gARden][garden]! We've been working hard to prepare our pitch. This year, the contest is being held on Becker College's campus, so If you're in the Worcester area, come on and stop by! We'll have a demo build running, if you want to see some virtual plants for yourself! 
 
 ## Contracts
 
