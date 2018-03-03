@@ -37,6 +37,8 @@ exclude:
   - "Gemfile.lock"
 permalink: :title
 collections: 
+  galleries:
+    output: true
   contacts:
     output: true
   games:
@@ -47,6 +49,12 @@ collections:
     output: true
     
 defaults:
+  - 
+    scope:
+      path: ""
+      type: "galleries"
+    values:
+      layout: "gallery"
   - 
     scope:
       path: ""

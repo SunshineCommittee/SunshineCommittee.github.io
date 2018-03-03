@@ -11,21 +11,12 @@ layout: default-no-sidebar
 </div>
 <div class="post-content">
   {{ content }}
-  <div>
-    <hr>
-    <h3>Gallery</h3>
-    {% assign dir = '/' | append: page.gallery_tag | append: '/' %}
-    <div id="links">
-    {% for image in site.static_files %}
-    {% if image.path contains dir %}
-
-      {% assign bg = "background-image: url(.." | append: image.path | append: ");" %}
-      <a href="{{ image.path }}" class="gallery-thumbnail thumbnail" style="{{ bg }}" data-gallery="#blueimp-gallery"></a>
-      <!-- <img src= {{ image.path }} /> -->
-    {% endif %}
-    {% endfor %}
-    </div>
-  </div>
+</div>
+<div>
+  <hr>
+  <h3>Gallery</h3>
+  {% assign gallery = site.galleries | where: "gallery_tag", page.gallery_tag | first %}
+  {{ gallery }}
 </div>
 <hr>
   <div class="home-read-more">
@@ -33,13 +24,6 @@ layout: default-no-sidebar
   </div>
 </hr>
 
-<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls custom-controls" data-hide-page-scrollbars="false" style="display: none;">
-    <div class="slides" style="width: 3480px"></div>
-    <h3 class="title"></h3>
-    <a class="prev"><img src="../assets/Arrow.png" style="width:32px; height:32px;"></a>
-    <a class="next"><img src="../assets/Arrow.png" style="width:32px; height:32px;"></a>
-    <a class="close"><img src="../assets/x-button.png" style="width:32px; height:32px;"></a>
-</div>
 {% include scripts.html %}
 
 
