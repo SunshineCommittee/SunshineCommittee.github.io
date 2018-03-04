@@ -4,6 +4,7 @@ date:   2018-02-10 12:00:00 -0500
 brief: "An augmented reality gardening app for mobile devices!"
 logo: "../assets/garden_logo.png"
 icon: "../assets/garden_icon.png"
+thumbnail: "/assets/garden_logo.png"
 gallery_tag: "garden"
 ---
 

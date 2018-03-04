@@ -4,6 +4,7 @@ date:   2016-02-10 12:00:00 -0500
 brief: "A stealth tactics party game for 2-5 players!"
 logo: "../assets/hn_logo.png"
 icon: "../assets/hn_icon.png"
+thumbnail: "/assets/hn_logo.png"
 gallery_tag: "hn"
 ---
 

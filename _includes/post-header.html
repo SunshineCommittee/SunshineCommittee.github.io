@@ -1,8 +1,13 @@
-{% assign authors = site.contacts | where: 'name', page.author %}
+{% assign author = site.contacts | where: 'name', page.author | first %}
 
 <div>
     <p class="text-muted">{{ page.date | date_to_string }} | Posted by 
-            {% for author in authors %}
-            <a href="../about">{{ author.name }}</a>
-            {% endfor %}</p>
+            {% assign id = page.author | replace: ' ','-' | downcase %}
+            {% if author.primary == true %}
+                {% assign url = '../about#' | append: id %}
+            {% else %}
+                {% assign url = '../about' %}
+            {% endif %}
+            <a href="{{ url }}">{{ author.name }}</a>
+    </p>
 </div>

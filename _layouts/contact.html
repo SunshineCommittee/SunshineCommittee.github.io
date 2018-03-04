@@ -1,5 +1,6 @@
 <div>
-    <h3>{{ page.name }}</h3>
+    {% assign id = page.name | replace:' ','-' | downcase %}
+    <h3 id="{{ id }}">{{ page.name }}</h3>
     <div class="flex-row">
         {% if page.avatar %}
             <div class="col col-sm-12 col-md-3 contact-avatar"><img src= "{{ page.avatar }}"></div>

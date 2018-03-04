@@ -1,8 +1,0 @@
-{% assign authors = site.contacts | where: 'name', post.author %}
-
-<div>
-    <p class="text-muted">{{ post.date | date_to_string }} | Posted by 
-            {% for author in authors %}
-            <a href="../about">{{ author.name }}</a>
-            {% endfor %}</p>
-</div>
