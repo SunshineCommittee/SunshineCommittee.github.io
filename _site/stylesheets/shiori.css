@@ -2037,6 +2037,8 @@ a:hover, a:focus { color: #c9c578; }
 
 th, td { padding-top: 15px; padding-right: 7px; }
 
+img { border-radius: 6px; }
+
 .flex-row { width: 100%; display: inline-block; }
 .flex-row div { padding: 10px; padding-left: 0px; padding-top: 3px; }
 
