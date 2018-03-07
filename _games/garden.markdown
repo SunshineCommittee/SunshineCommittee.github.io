@@ -21,7 +21,7 @@ Check out our cool pitch video for more details!
 </iframe>
 </div>
 <br>
-Development for gARden started mid-January as part of a hackathon project at WPI. We loved the idea so much that we devided to keep working on it, even after the event.
+Development for gARden started mid-January as part of a hackathon project at WPI. We loved the idea so much that we devided to keep working on it, even after the event. Most recently, gARden was [the category winner for "Indie" at the Mass DiGI Game Challenge in 2018][massdigi].
 
 ## Additional Credits
 The 3D art assets for gARden are the wonderful work of our friend Chelsea Saunders.
@@ -30,11 +30,4 @@ The 3D art assets for gARden are the wonderful work of our friend Chelsea Saunde
 {{ pcrown }}
 </div>
 
-<!-- <div markdown="1">
-
-![timelapse](../assets/garden_timelapse.gif)
-
-<span class="text-muted"> A high-speed timelapse of plant growth! </span>
-
-</div> -->
-
+[massdigi]: ../articles/2018-03-03-mass-digi

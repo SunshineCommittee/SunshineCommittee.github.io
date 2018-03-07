@@ -1,10 +1,12 @@
 <div>
 {% assign dir = 'gallery/' | append: page.gallery_tag | append: '/' %}
-    <div id="links">
+    <div id="links" class="flex-row">
     {% for image in site.static_files %}
         {% if image.path contains dir %}
             {% assign bg = "background-image: url(.." | append: image.path | append: ");" %}
-            <a href="{{ image.path }}" class="gallery-thumbnail thumbnail" style="{{ bg }}" data-gallery="#blueimp-gallery-{{ page.gallery_tag }}"></a>
+            <div class="col-sm-2 col-xs-6" style="padding: 5px;">
+                <a href="{{ image.path }}" class="gallery-thumbnail thumbnail" style="{{ bg }}" data-gallery="#blueimp-gallery-{{ page.gallery_tag }}"></a>
+            </div>
         {% endif %}
     {% endfor %}
     </div>
@@ -16,5 +18,5 @@
     <a class="prev"><img src="../assets/gallery/Arrow.png" style="width:32px; height:32px;"></a>
     <a class="next"><img src="../assets/gallery/Arrow.png" style="width:32px; height:32px;"></a>
     <a class="close"><img src="../assets/gallery/x-button.png" style="width:32px; height:32px;"></a>
-    <a class="loading"><img src="../assets/gallery/loading.gif" style="width:32px; height:32px;"></a>
+    <a class="slide-loading"><img src="../assets/gallery/loading.gif" style="width:32px; height:32px;"></a>
 </div>

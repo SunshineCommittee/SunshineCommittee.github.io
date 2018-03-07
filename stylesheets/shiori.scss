@@ -190,7 +190,7 @@ img{
   margin-right: 1em;
 }
 .post-content {
-  margin-bottom: $space-md;
+  margin-bottom: $space-sm;
 }
 .post-content img,
 .post-excerpt-home img,
@@ -317,13 +317,12 @@ img{
 
 .gallery-thumbnail{
   display: inline-block;
-  height: 128px;
-  width: 128px;
+  // height: 128px;
+  padding-top: 100%;
+  width: 100%;
   background-position: center center;
   background-size: cover;
   margin: 0px;
-  margin-right: 15px;
-  margin-top: 15px;
 }
 
 .video-container {
