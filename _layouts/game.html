@@ -14,7 +14,7 @@ layout: default-no-sidebar
 </div>
 <div>
   <hr>
-  <h3>Gallery</h3>
+  <h3 id="gallery">Gallery</h3>
   {% assign gallery = site.galleries | where: "gallery_tag", page.gallery_tag | first %}
   {{ gallery }}
 </div>
