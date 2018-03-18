@@ -25,7 +25,7 @@ to tackle this first. Up until now, we had been using a simple shader that appli
 
 ![testinggradient](../assets/gradients.gif)
 
-Given the simplistic nature of our models, we wanted a toon/celshaded look over a hyper-realistic one. Chelsea’s art style tends to work well with flat colors, but then the models would look out of place in AR. So, we had to find a happy medium. To start off, I extended our existing Plant shader to use celshading instead of the default Lambert shading. It resulted in the following:
+Given the simplistic nature of our models, we wanted to pursue a toon/celshaded look over a hyper-realistic one. After all, Chelsea’s art style tends to work well with flat colors. But, that approach would look out of place in AR, so I ultimately had to find a happy medium between toon and realism. To start off, I extended our existing Plant shader to use celshading instead of the default Lambert shading. It resulted in the following:
 
 ![bigtoons](../assets/overtooned.png)
 
@@ -33,8 +33,16 @@ While it was a good look, it was slightly too toon-y. The models lost a lot of d
 After several references and tutorials, I had a second iteration that featured softer shading and a toon ramp. The toon ramp gave us flexibility in how sharp
 we wanted the shadow's edges to be. We could also play around with what colors the shadows and highlights would be for each model.
 
-![](../assets/rainbow.gif)
-![](../assets/sunny.gif)
+<table style="border: none;" border="0">
+    <tr>
+        <td style="border: none;">
+            <img src="../assets/rainbow.gif"/>
+        </td>
+        <td style="border: none;">
+            <img src="../assets/sunny.gif"/>
+        </td>
+    </tr>
+</table>
 
 ## Lighting
 
