@@ -44,6 +44,8 @@ collections:
     output: true
   articles: 
     output: true
+  press: 
+    output: true
   posts: 
     output: true
     
@@ -78,6 +80,12 @@ defaults:
       type: "articles"
     values:
       layout: "post"
+  -
+    scope:
+      path: ""
+      type: "press"
+    values:
+      layout: "default-no-sidebar"
   -
     scope:
       path: ""
