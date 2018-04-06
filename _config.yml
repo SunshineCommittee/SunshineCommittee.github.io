@@ -85,7 +85,7 @@ defaults:
       path: ""
       type: "press"
     values:
-      layout: "default-no-sidebar"
+      layout: "presskit"
   -
     scope:
       path: ""
