@@ -308,6 +308,11 @@ img{
   filter: drop-shadow(1px 1px 0 $headings-color) drop-shadow(-1px -1px 0 $headings-color) drop-shadow(-1px 1px 0 $headings-color) drop-shadow(1px -1px 0 $headings-color);
 }
 
+
+.game-logo{
+  text-align: center;
+}
+
 .game-logo > img{
   display: flex;
   max-height: 100%; 

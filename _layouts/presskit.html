@@ -3,20 +3,68 @@ layout: default-no-sidebar
 ---
 {% assign game = site.games | where: "title", page.title | first %}
 <div>
-    <div class="post-header">
-        <div class="game-logo">
-            <img src= "{{ game.logo }}" />
-        </div>  
-    </div>
     <div class="col-sm-8" id="content-body">
-        <h2>About</h2>
-        {{ game.brief }}
-
-        <h2>Screenshots and Assets</h2>
-        {{ game.logo }}
+            <div class="post-header">
+                <div class="game-logo">
+                    <img src= "{{ game.logo }}" />
+                </div>  
+            </div>
+        <div>
+            <h2>About</h2>
+            {{ game.brief }}
+        </div>
+        <div>
+            <h2>Screenshots and Assets</h2>
+            <p>Download an archive of image files here!</p>
+            {% assign gallery = site.galleries | where: "gallery_tag", game.gallery_tag | first %}
+            {{ gallery }}
+        </div>
     </div>
     <div class="col-sm-4">
-        <h2>Fact Sheet</h2>
-        {{  }}
+        <div>
+            <h2>Release Info</h2>
+            <div>
+                <h3>Release Date</h3>
+                N/A
+            </div>
+        </div>
+        <hr>
+
+        <div>
+            <h2>Specs</h2>
+            
+            {% assign plats = game.platforms %}
+            {% if plats %}
+            <div>
+                <h3>Platforms</h3>
+                {% for item in plats %}
+                <li>{{ item }}</li>
+                {% endfor %}
+            </div>
+            {% endif %}
+
+            {% assign modes = game.modes %}
+            {% if modes %}
+            <div>
+                <h3>Gameplay Modes</h3>
+                {% for item in modes %}
+                <li>{{ item }}</li>
+                {% endfor %}
+            </div>
+            {% endif %}
+
+            {% assign inputs = game.inputs %}
+            {% if inputs %}
+            <div>
+                <h3>Input Methods</h3>
+                {% assign inputs = game.inputs %}
+                {% for item in inputs %}
+                <li>{{ item }}</li>
+                {% endfor %}
+            </div>
+            {% endif %}
+
+        </div>
+        <hr>
     </div>
 </div>

@@ -6,6 +6,13 @@ logo: "../assets/garden_logo.png"
 icon: "../assets/garden_icon.png"
 thumbnail: "/assets/garden_logo.png"
 gallery_tag: "garden"
+platforms: 
+    - iOS 
+    - Android
+modes: 
+    - Single-player
+inputs:
+    - Touchscreen
 ---
 
 An augmented reality gardening app for mobile devices!
