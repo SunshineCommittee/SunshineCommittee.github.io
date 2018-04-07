@@ -1,7 +1,22 @@
 ---
 layout: default-no-sidebar
 ---
-
+{% assign game = site.games | where: "title", page.title | first %}
 <div>
-    Somethin goes here
+    <div class="post-header">
+        <div class="game-logo">
+            <img src= "{{ game.logo }}" />
+        </div>  
+    </div>
+    <div class="col-sm-8" id="content-body">
+        <h2>About</h2>
+        {{ game.brief }}
+
+        <h2>Screenshots and Assets</h2>
+        {{ game.logo }}
+    </div>
+    <div class="col-sm-4">
+        <h2>Fact Sheet</h2>
+        {{  }}
+    </div>
 </div>

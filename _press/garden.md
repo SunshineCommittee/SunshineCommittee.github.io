@@ -1,4 +1,4 @@
 ---
-title:  "Press Kit"
+title:  "gARden"
 brief: "All about the Sunshine Committee!"
 ---
