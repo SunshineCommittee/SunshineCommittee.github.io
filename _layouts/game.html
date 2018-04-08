@@ -7,7 +7,7 @@ layout: default-no-sidebar
         <img src= "{{ page.logo }}" />
         {% assign press = site.press | where: "title", page.title | first %}
         {% if press %}
-          <span>(<a href="{{ press.url | prepend:site.baseurl}}">press kit</a>)</span>
+          <span>(check out the <a href="{{ press.url | prepend:site.baseurl}}">press kit</a>)</span>
         {% endif %}
     </div>
   <!-- <h1 class="post-title-main">{{ page.title }}</h1>

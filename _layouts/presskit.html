@@ -14,10 +14,24 @@ layout: default-no-sidebar
             {{ game.brief }}
         </div>
         <div>
-            <h2>Screenshots and Assets</h2>
-            <p>Download an archive of image files here!</p>
+            <h2>Assets</h2>
             {% assign gallery = site.galleries | where: "gallery_tag", game.gallery_tag | first %}
-            {{ gallery }}
+            {% if gallery %}
+            <div>
+                <h3>Photos and Screenshots</h3>
+                <p>(download image archive)</p>
+                {% assign gallery = site.galleries | where: "gallery_tag", game.gallery_tag | first %}
+                {{ gallery }}
+            </div>
+
+            {% endif %}
+            {% assign logo_tag = game.gallery_tag | append:"-logos" %}
+            {% assign logos = site.galleries | where: "gallery_tag", logo_tag | first %}
+            <div>
+                <h3>Logos and Icons</h3>
+                <p>(download image archive)</p>
+                {{ logos }}
+            </div>
         </div>
     </div>
     <div class="col-sm-4">
@@ -66,5 +80,14 @@ layout: default-no-sidebar
 
         </div>
         <hr>
+
+        <div>
+            <h2>Reach Out</h2>
+            {% assign contact = site.contacts | where: "name", "Contact" | first %}
+            {{ contact }}
+            For more direct contact info, check out <a href = "../about">our about page</a>!
+        </div>
+        <hr>
+        
     </div>
 </div>
