@@ -4,7 +4,7 @@
     {% for image in site.static_files %}
         {% if image.path contains dir %}
             {% assign bg = "background-image: url(.." | append: image.path | append: ");" %}
-            <div class="col-sm-2 col-xs-6" style="padding: 5px;">
+            <div class="col-sm-2 col-xs-4" style="padding: 5px;">
                 <a href="{{ image.path }}" class="gallery-thumbnail thumbnail" style="{{ bg }}" data-gallery="#blueimp-gallery-{{ page.gallery_tag }}"></a>
             </div>
         {% endif %}
