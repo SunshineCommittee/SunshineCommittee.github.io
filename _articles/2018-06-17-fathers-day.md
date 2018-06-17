@@ -17,7 +17,7 @@ Specifically, [gARden](garden) draws heavy inspiration from my dad's recent comm
 
 More importantly, though, I love hearing my dad talk about the latest seeds that he has planted, the newest plants he has traded for, and the plans he has for the season. I also love seeing the photo albums he has of every step along the planting process. 
 
-When considering what we want [gARden](garden) to be, I think an important aspect is capturing that sense of excitement about something so chill, and distilling it down to a form which anybody could experience. Particularly, I’d like to share this experience with people without them also needing to invest quite as much money or time as my dad has.
+When considering what we want [gARden](garden) to be, I think an important aspect is capturing that sense of excitement about something so chill, and distilling it down to a form which anybody could experience. Particularly, I’d like to share this experience with people without them also needing to invest quite as much money or time as my dad has. If we can bring users a piece of the joy I see in my dad when he talks about his plants, then development will have all been worth it.
 
 So, thanks again, dad. I'm looking forward to seeing you and the trees again real soon.
 
