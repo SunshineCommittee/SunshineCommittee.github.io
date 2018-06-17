@@ -2,7 +2,7 @@
 title: "Father's Day"
 date: "2018-06-17"
 author: "Tom Farro"
-brief: "Back at the Mass DiGI Game Challenge, in addition to winning our category, we also won a much more personal ward for 'Most Heartwarming Inspiration.' That inspiration is my dad."
+brief: "Back at the Mass DiGI Game Challenge we won an award for 'Most Heartwarming Inspiration.' That inspiration is my dad."
 thumbnail: "/assets/dad.png"
 ---
 ![dad](../assets/dad.png)
