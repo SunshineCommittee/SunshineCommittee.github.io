@@ -3,7 +3,7 @@ title: "The Eyes of the Machine"
 date: "2018-06-28"
 author: "Tom Farro"
 brief: "Ever wonder how AR apps know what they're looking at? Here's a peek behind the veil of Computer Vision."
-thumbnail: "/assets/cv_2.png"
+thumbnail: "/assets/cv_3.png"
 ---
 
 ![eyes](../assets/cv_3.png)
