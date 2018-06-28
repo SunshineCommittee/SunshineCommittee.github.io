@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html>
+  <!-- Additions to <head> tags go here. -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/stylesheets/blueimp-gallery.min.css">
+    <link rel="stylesheet" href="/stylesheets/shiori.css">
+    <link href='//fonts.googleapis.com/css?family=Montserrat:700,400' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="canonical" href="http://localhost:4000/articles/2018-06-28-computer-vision">
+    <!-- <link rel="shortcut icon" href="/favicon.ico"> -->
+    <title>The Eyes of the Machine | Sunshine Committee</title>
+
+    <meta name="twitter:card" content="summary_large_image">
+
+    
+    <meta property="twitter:description" content= "Ever wonder how AR apps know what they're looking at? Here's a peek behind the veil of Computer Vision.">
+    <meta property="og:description" content= "Ever wonder how AR apps know what they're looking at? Here's a peek behind the veil of Computer Vision.">
+
+    
+    <meta property="twitter:title" content= "The Eyes of the Machine">
+    <meta property="og:title" content= "The Eyes of the Machine">
+
+
+
+    
+    <meta property="og:twitter" content="http://localhost:4000/assets/cv_2.png">
+    <meta property="og:image" content="http://localhost:4000/assets/cv_2.png">
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+  <body id="body">
+    <div id="bg">
+          
+      <div class="navbar navbar-default navbar-static-top">
+    
+        <div class="container">
+          <div class="navbar-header">
+            <div class="navbar-toggle-wrapper visible-xs">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".js-navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <a href="/" class="navbar-brand">Sunshine Committee</a>
+          </div>
+          <div class="collapse navbar-collapse js-navbar-collapse">
+            <ul class="navbar-nav nav">
+              <li><a href="/archive">Archive</a></li>
+<li><a href="/games">Games</a></li>
+<li><a href="/about">About</a></li>
+
+
+            </ul>
+            <ul class="navbar-nav nav navbar-right">
+              <!--<li class="hidden-xs"><iframe src="http://ghbtns.com/github-btn.html?user=ellekasai&repo=shiori&type=watch&count=true&size=large"
+  allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30" style="margin-top: 14px;"></iframe>
+</li>-->
+
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          
+            <div class="col-sm-8" id="content-body">
+              <div class="post-header-home">
+  <h1 class="post-title-home">The Eyes of the Machine</h1>
+  
+
+<div>
+    <p class="text-muted">28 Jun 2018 | Posted by 
+            
+            
+            <a href="../about#tom-farro">Tom Farro</a>
+    </p>
+</div>
+</div>
+<div class="post-content">
+  <p><img src="../assets/cv_3.png" alt="eyes" /></p>
+
+<p>Ever wonder how Augmented Reality apps like <a href="../games/garden">gARden</a> know what they’re looking at? Here’s a peek behind the veil of Computer Vision.</p>
+
+<!--more-->
+
+<h2 id="what-is-computer-vision">What is Computer Vision?</h2>
+
+<p>Broadly, <a href="https://en.wikipedia.org/wiki/Computer_vision">Computer Vision</a> (CV) is defined as “a field that deals with how computers can be made for gaining high-level understanding from digital images or videos”. Naturally, it’s the foundation of AR, which fundamentally hinges on interpreting reality (as presented via a stream of images) and augmenting those images in some intelligent way.</p>
+
+<p>AR is somewhat of a hot topic right now, and major mobile device moguls like Google and Apple offer their proprietary tool kits to work with their latest devices. These kits are great; they are extremely optimized for their company’s latest hardware, and can produce amazing results. By that same token, however, building your app using such a kit locks you in to a very specific subset of target platforms.</p>
+
+<p>With <a href="../games/garden">gARden</a>, we really want anyone to be able to enjoy the experience, and don’t really need any super-powered graphical features. As such, we chose to homespin our own AR kit to reach the widest number of devices.</p>
+
+<h2 id="image-processing">Image Processing</h2>
+
+<p>At the surface level, our app looks something like this:</p>
+
+<p><img src="../assets/gallery/cv/1.png" alt="top level" /></p>
+
+<p>But how does the computer know that it’s looking at a marker? That’s achieved through a process called feature extraction, wherein the computer examines neighboring pixels, and looks for a pattern that it has been trained to identify. This can mean patterns like the curvature of a face, or in our case, the square shape and inner arrangement of a marker.</p>
+
+<p>But from just a raw camera image, there’s too much going on to easily make any sense out of it. Specifically, color adds a level of variability that makes comparing pixels unreliable. So, our first step is to remove all color and convert out image in to greyscale, like so:</p>
+
+<p><img src="../assets/gallery/cv/2.png" alt="greyscale" /></p>
+
+<p>Once we’ve done this, we apply another technique known as Binary Thresholding. Simply put, thresholding is the process of assessing a pixel’s hue against a threshold value. If the value is below the threshold, the pixel is made to be pure white. If it’s above the threshold, it’s made to be pure black. Applying this, it’s much easier to see concrete shapes:</p>
+
+<p><img src="../assets/gallery/cv/3.png" alt="thresholding" /></p>
+
+<p>Once the computer has identified a candidate for a pattern match, it does some involved linear algebra to determine the perspective of the pattern, and applies that transformation to the corresponding plant.</p>
+
+<h2 id="performance-improvements">Performance Improvements</h2>
+
+<p>Of course, to construct those patterns, the computer needs to comb through every pixel and perform comparisons to its neighbors. As you might guess, this process scales poorly as image size increases. The Galaxy S8, for example, captures photos in a breathtaking 1440x2960 resolution. That’s 4,262,400 pixels to search through and think about, every frame, at (ideally) 30 frames per second.</p>
+
+<p>One common approach to help performance is to simply clamp the resolution of the camera to something small. In previous builds of the app, the viewport was a relatively small porthole on the screen. However, going forward we wanted the viewport to be the entire screen. Doing so would mean that low-resolution camera input would become more noticeable, as crisply rendered plants were superimposed on to an undesirably fuzzy backdrop.</p>
+
+<p>The solution we came up with was to downscale the thresholded image to a fixed, manageable resolution. Our algorithm was then able to quickly determine the orientation of the plant in this smaller frame. Finally, we applied some more linear algebra based on the scale ratio between the downscaled image and the full-resolution image to translate the plant orientation to the larger frame. Magic.</p>
+
+<p><img src="../assets/gallery/cv/4.png" alt="downscaling" /></p>
+
+<h2 id="edge-cases">Edge Cases</h2>
+
+<p>A unique problem of our marker-based approach is that we are very much at the whim of environmental lighting conditions. The aforementioned binary thresholding technique is good and fast, but completely fails if the lighting on the marker is so faint or so bright, that both the dark and light sections of the marker fall on the same side of the threshold.</p>
+
+<p>Initially, we considered using the device’s ambient light sensor to adjust the threshold dynamically. But this still presents an issue in cases where the lighting conditions are uneven across the entire marker. While our human brains are good at telling us what looks light and what looks dark because we can look at the picture as a whole, from an objective standpoint each individual pixel is either light or dark to a computer.</p>
+
+<p>With that thought in mind, we arrived at using a technique called Adaptive Thresholding. This type of thresholding determines local threshold values based on the minimum and maximum values of neighboring pixels in a radius around each individual pixel. Similar to feature extraction, this is expensive and scales poorly with image size. Fortunately, we had already implemented our downscaling solution which afforded us the computational capacity to pull this off.</p>
+
+<p>On the left we have the same binary thresholding parameters that worked successfully in the above images, while on the right we employ adaptive thresholding. See the difference?</p>
+
+<table style="border: none;" border="0">
+    <tr>
+        <td style="border: none;">
+            <img src="../assets/gallery/cv/5.png" />
+        </td>
+        <td style="border: none;">
+            <img src="../assets/gallery/cv/6.png" />
+        </td>
+    </tr>
+</table>
+
+<p>And that’s that. Thank you for reading all the way to the end!</p>
+
+<div>
+  <hr />
+  <h3 id="gallery">Gallery</h3>
+  
+  <div>
+
+    <div id="links" class="flex-row">
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            <div class="col-sm-2 col-xs-4" style="padding: 5px;">
+                <a href="/assets/gallery/cv/1.png" class="gallery-thumbnail thumbnail" style="background-image: url(../assets/gallery/cv/1.png);" data-gallery="#blueimp-gallery-cv"></a>
+            </div>
+        
+    
+        
+            
+            <div class="col-sm-2 col-xs-4" style="padding: 5px;">
+                <a href="/assets/gallery/cv/2.png" class="gallery-thumbnail thumbnail" style="background-image: url(../assets/gallery/cv/2.png);" data-gallery="#blueimp-gallery-cv"></a>
+            </div>
+        
+    
+        
+            
+            <div class="col-sm-2 col-xs-4" style="padding: 5px;">
+                <a href="/assets/gallery/cv/3.png" class="gallery-thumbnail thumbnail" style="background-image: url(../assets/gallery/cv/3.png);" data-gallery="#blueimp-gallery-cv"></a>
+            </div>
+        
+    
+        
+            
+            <div class="col-sm-2 col-xs-4" style="padding: 5px;">
+                <a href="/assets/gallery/cv/4.png" class="gallery-thumbnail thumbnail" style="background-image: url(../assets/gallery/cv/4.png);" data-gallery="#blueimp-gallery-cv"></a>
+            </div>
+        
+    
+        
+            
+            <div class="col-sm-2 col-xs-4" style="padding: 5px;">
+                <a href="/assets/gallery/cv/5.png" class="gallery-thumbnail thumbnail" style="background-image: url(../assets/gallery/cv/5.png);" data-gallery="#blueimp-gallery-cv"></a>
+            </div>
+        
+    
+        
+            
+            <div class="col-sm-2 col-xs-4" style="padding: 5px;">
+                <a href="/assets/gallery/cv/6.png" class="gallery-thumbnail thumbnail" style="background-image: url(../assets/gallery/cv/6.png);" data-gallery="#blueimp-gallery-cv"></a>
+            </div>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    </div>
+</div>
+
+<div id="blueimp-gallery-cv" class="blueimp-gallery blueimp-gallery-controls custom-controls" data-hide-page-scrollbars="false" style="display: none;">
+    <div class="slides" style="width: 3480px"></div>
+    <h3 class="title"></h3>
+    <a class="prev"><img src="../assets/gallery/Arrow.png" style="width:32px; height:32px;" /></a>
+    <a class="next"><img src="../assets/gallery/Arrow.png" style="width:32px; height:32px;" /></a>
+    <a class="close"><img src="../assets/gallery/x-button.png" style="width:32px; height:32px;" /></a>
+    <a class="slide-loading"><img src="../assets/gallery/loading.gif" style="width:32px; height:32px;" /></a>
+</div>
+</div>
+
+
+</div>
+<div class="post-footer">
+  
+</div>
+
+  
+    <div class="post-navs row">
+      
+        <div class="col-md-6 post-nav">
+          <h3 class="section-header">
+            Older
+            <!-- <span class="text-muted"> &middot; </span>
+            <a href="/archive">View Archive (2)</a> -->
+          </h3>
+          <h2 class="post-title-link"><a href="/articles/2018-06-17-fathers-day">Father's Day</a></h2>
+          <p><img src="../assets/dad.png" alt="dad" /></p>
+
+<p>Back at the Mass DiGI Game Challenge, in addition to <a href="./2018-03-03-mass-digi">winning our category</a>, we also won a much more personal award for “Most Heartwarming Inspiration.” That inspiration is my dad.</p>
+
+
+        </div>
+      
+      
+    </div>
+  
+
+<hr>
+<div class="home-read-more">
+  <a href="/archive" class="btn btn-primary btn-block btn-lg">View All 9 Articles →</a>
+</div>
+
+            </div>
+            <div class="col-sm-4">
+              <!-- Feel free to remove this div. Uses purplecoat: http://ellekasai.github.io/purplecoat.js -->
+<div id="sidebar">
+  <div class="hide-on-mobile sidebar-div">
+    <h3>Our Good Tweets</h3>
+    <p>
+      <div>
+        <a class="twitter-timeline" data-width="400" data-height="550" data-theme="dark" data-link-color="#F5F8FA" href="https://twitter.com/SunshineDevs?ref_src=twsrc%5Etfw">Tweets by Sunshine Committee</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+    </p>
+  </div>
+  
+  <div>
+    
+    <h3 id="contact">Contact</h3>
+    <div class="flex-row">
+        
+            
+                <div class="col col-sm-12 col-md-12">
+            
+        
+            
+            <div>
+                
+                    <div class="contact-info">
+                        
+                        <span class="fa fa-twitter fa-lg"></span> <a target="_blank" href="https://twitter.com/SunshineDevs">@SunshineDevs</a>
+                    </div>
+                
+                
+                
+                    <div class="contact-info">
+                        <span class="fa fa-envelope fa-lg"></span> <a target="_blank" href="mailto:devs@sunshinecommittee.io" >devs@sunshinecommittee.io</a>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+  </div>
+</div>
+            </div>
+          
+        </div>
+        <div class="row footer">
+          <div class="col-sm-12 text-center">
+            <!-- Feel free to remove this div. Uses purplecoat: http://ellekasai.github.io/purplecoat.js -->
+<div data-purplecoat="shiori" data-purplecoat-label="footer.html">
+&copy;2018.
+Built with <a href="http://jekyllrb.com/">Jekyll</a> and
+<a href="https://github.com/ellekasai/shiori">Shiori Theme</a>.
+</div>
+          </div>
+        </div>
+      </div>
+      <!-- Place your <script> tags here. -->
+
+<!-- Example: Twitter -->
+<script src="/javascripts/jquery.min.js"></script>
+<script src="/javascripts/bootstrap.min.js"></script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<script src="/javascripts/background.js"></script>
+<script src="/javascripts/jquery.blueimp-gallery.min.js"></script>
+<script src="/javascripts/blueimp-gallery.min.js"></script>
+    </div>
+  </body>
+</html>
