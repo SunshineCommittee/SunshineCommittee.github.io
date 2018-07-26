@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @font-face { font-family: linotte; src: url(../assets/fonts/linotte-semibold.otf); }
+@font-face { font-family: attractive; src: url(../assets/fonts/attractive-regular.ttf); }
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html { font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
 
@@ -2024,7 +2025,7 @@ body #bg { background-image: url("../assets/sun_bg_tile_8.png"); background-repe
 
 p { color: #dbdbdb; }
 
-h1 { font-family: linotte; color: white; }
+h1 { color: white; }
 
 h2 { color: white; margin-top: 40.5px; margin-bottom: 6.75px; }
 
