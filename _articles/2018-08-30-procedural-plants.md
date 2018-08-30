@@ -6,9 +6,9 @@ brief: "As August draws to a close, here's a roundup on the new procedural gener
 thumbnail: "/assets/lsystemgen.jpg"
 ---
 
-![eyes](../assets/lsystemgen.jpg)
+![lsys](../assets/lsystemgen.jpg)
 
-<!-- As August draws to a close, here's a roundup on the new procedural generation technique we've been working with over the past few months. -->
+As August draws to a close, here's a roundup on the new procedural generation technique we've been working with over the past few months.
 
 <!--more-->
 
@@ -16,7 +16,7 @@ thumbnail: "/assets/lsystemgen.jpg"
 
 Previously in [gARden][garden], a plant's growth behavior was dictated using pre-built animations and/or blendshapes. While this method allowed for easy manipulation of plant growth over time, it lacked variability in how a plant could turn out based on player input. 
 
-Additionaly, as we looked beyond succulent types, we realized we would need a system flexible enough to accomadate a menagerie of growth behaviors; flowering, fruit and seed production, unique branching and even leaf generation. Pruning and propagation are actions that also came to mind. 
+Additionally, as we looked beyond succulent types, we realized we would need a system flexible enough to accommodate a menagerie of growth behaviors; flowering, fruit and seed production, unique branching and even leaf generation. Pruning and propagation are actions that also came to mind. 
 
 Allowing players to groom their plant facilitates dynamic play, which would help keep them engaged for longer. For that to work, our plants need to be able to realistically pick a spot to regrow from and to have a plan on how they regrow. All of these are features that our previous system could only dream of accomplishing.
 
