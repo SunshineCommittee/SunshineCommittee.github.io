@@ -17,7 +17,7 @@ baseurl: "" # The subpath of your site. Use "" if you're hosting a blog at the r
 url: "https://sunshinecommittee.github.io" # the base hostname & protocol for your site
 title: "Sunshine Committee"
 email: devs@sunshinecommittee.io
-description: "Artisinal hand-crafted videogames"
+description: "Artisanal Hand-Crafted Videogames"
 twitter_username: SunshineDevs
 github_username:  SunshineCommittee
 
