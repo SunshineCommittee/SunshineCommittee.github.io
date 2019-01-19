@@ -6,7 +6,7 @@ brief: "While we're not tabling at Boston FIG Fest this year as exhibitors, we w
 thumbnail: "/assets/bfigfest2018.png"
 ---
 
-![lsys](../assets/bfigfest2018.png)
+![fig](../assets/bfigfest2018.png)
 
 While we're not tabling at Boston FIG Fest this year as exhibitors, we will still be attending as visitors. If you're around and find us, come have a chat!
 
