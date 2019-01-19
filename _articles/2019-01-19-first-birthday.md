@@ -37,7 +37,9 @@ Mid way through development, Unity released the Job System, which is like an eng
 
 ## Localization
 
-We've already built and integrated a pretty robust localization system. While some may say that we're too early in development to worry about such things, I believe that building a system like this early is a good way to keep yourself concious of just how text-heavy your game is. Ultimately, text can be a limter of accessibility, so I think it's good to be mindful of that. So far, [gARden][garden] already has 96 lines of text between menu prompts and plant names!
+We've already built and integrated a pretty robust localization system. While some may say that we're too early in development to worry about such things, I believe that building a system like this early is a good way to keep yourself concious of just how text-heavy your game is. 
+
+Ultimately, text can be a limter of accessibility, so I think it's good to be mindful of that. So far, [gARden][garden] already has 96 lines of text between menu prompts and plant names!
 
 
 [garden]: ../games/garden
