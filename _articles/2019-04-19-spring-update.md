@@ -8,14 +8,14 @@ thumbnail: "/assets/spring_cut_thumb.jpg"
 
 ![happy](../assets/spring_cut_thumb.jpg)
 
-Today marks 1 year of extremely part-time development for [gARden][garden]! While it's definitely hard to maintain a steady trend of progress in addition to our full-time jobs, we wanted to share some info about where we are now, compared to then
-
+We've been busy. In fact, I think our schedules finally aligned and we've made more forward progress in the past two months than we have in the past year. So time to fill everyone in. But why read a write-up when you can watch one instead? Video after the jump.
 <!--more-->
 
-## 1 Year Ago
+## Pitch Video
 
-As a recap, here's the original tweet and video I made to initially share the project with the world:
+We anted to submit to Boston Festival of Indie Games again this year, so we hustled and implemented some key features. At long last, we finally have the understanding and skills to bring [gARden][garden] much more closely in line with out original vision of the app. 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/r6fwPkCOyX8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 [garden]: ../games/garden
