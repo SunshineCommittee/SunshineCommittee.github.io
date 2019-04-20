@@ -39,7 +39,7 @@ Development for gARden started mid-January as part of a hackathon project at WPI
 ## Additional Credits
 All the audio for gARden is the work  longtime collaborator Matt Martin.
 <div class="contact">
-{% assign matt = site.contacts | where: "name", Matt Martin" | first %}
+{% assign matt = site.contacts | where: "name", "Matt Martin" | first %}
 {{ matt }}
 </div>
 
