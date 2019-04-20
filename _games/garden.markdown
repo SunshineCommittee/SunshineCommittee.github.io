@@ -27,8 +27,22 @@ Check out our cool pitch video for more details!
 <br>
 Development for gARden started mid-January as part of a hackathon project at WPI. We loved the idea so much that we devided to keep working on it, even after the event. Most recently, gARden was [the category winner for "Indie" at the Mass DiGI Game Challenge in 2018][massdigi].
 
+## Features
+
+<ul>
+    <li>Marker-based AR that allows you decorate your physical space with digital plants!</li>
+    <li>Plants grow slowly in real time. Check in whenever to see how they're doing!</li>
+    <li>Prune and sclupt your plants however you wish! Each one will grow back in a unique way!</li>
+    <li>Share photos of your plants on social media with the built-in camera!</li>
+</ul>
 
 ## Additional Credits
+All the audio for gARden is the work  longtime collaborator Matt Martin.
+<div class="contact">
+{% assign matt = site.contacts | where: "name", Matt Martin" | first %}
+{{ matt }}
+</div>
+
 Some of the 3D art assets for gARden are the wonderful work of our friend Chelsea Saunders.
 <div class="contact">
 {% assign pcrown = site.contacts | where: "name", "Chelsea Saunders" | first %}
