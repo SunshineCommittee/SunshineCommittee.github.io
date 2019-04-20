@@ -23,7 +23,7 @@ Using printable real-world markers, you can decorate your desk, office or home w
 
 Check out our cool pitch video for more details!
 
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/r6fwPkCOyX8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="560" src="https://www.youtube.com/embed/r6fwPkCOyX8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br>
 Development for gARden started mid-January as part of a hackathon project at WPI. We loved the idea so much that we devided to keep working on it, even after the event. Most recently, gARden was [the category winner for "Indie" at the Mass DiGI Game Challenge in 2018][massdigi].
 
