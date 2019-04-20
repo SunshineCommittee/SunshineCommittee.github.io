@@ -3,10 +3,10 @@ title: "Big Spring Update"
 date: "2019-04-19"
 author: "Tom Farro"
 brief: ""
-thumbnail: "/assets/spring_cut_1.jpg"
+thumbnail: "/assets/spring_cut_thumb.jpg"
 ---
 
-![happy](../assets/spring_cut_1.jpg)
+![happy](../assets/spring_cut_thumb.jpg)
 
 Today marks 1 year of extremely part-time development for [gARden][garden]! While it's definitely hard to maintain a steady trend of progress in addition to our full-time jobs, we wanted to share some info about where we are now, compared to then
 
