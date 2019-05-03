@@ -12,13 +12,13 @@ On Saturday, May 11th, we'll be at District Hall as part of Boston Playcrafting'
 
 <!--more-->
 
-Come on down from 12:00pm - 5:00pm and check out our latest build of [gARden][garden], as well as demos of many of our friends, like [Petricore][petricore] and [Maximum Crash][maxcrash].
+Come on down from 12:00pm - 5:00pm and check out our latest build of [gARden][garden], as well as the demos from many of our friends, like [Petricore][petricore] and [Maximum Crash][maxcrash].
 
 You can pruchase tickets and RSVP [right here][rsvp]!
 
 ## What's New in 2019?
 
-Since our last public showing, we've added a ton of features regarding procedural growth, plant interaction, and overall UX. If you can't make it to the event, you can also check out some of those features in action in our latest video.
+Since our last public showing, we've added a ton of features regarding procedural growth, plant interaction, and overall UX. If you can't make it to the event, you can also check out some of those features in action in our latest video, whic we've also used as our first-phase submission to Boston FIG. We hope to see you there later this year, as well.
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/r6fwPkCOyX8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
