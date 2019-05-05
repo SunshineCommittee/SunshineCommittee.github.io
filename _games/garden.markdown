@@ -38,7 +38,7 @@ Development for gARden started mid-January 2018 as part of a hackathon project a
 
 ## Additional Credits
 
-All the audio for gARden is the work  longtime collaborator Matt Martin.
+All the audio for gARden is the work of longtime collaborator Matt Martin.
 <div class="contact">
 {% assign matt = site.contacts | where: "name", "Matt Martin" | first %}
 {{ matt }}
