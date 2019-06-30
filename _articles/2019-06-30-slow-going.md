@@ -18,12 +18,11 @@ Back in May, we exhibited at [Boston Playcrafting][playcraft], which was refresh
 
 Feedback was mostly positive! People found the concept novel, but there was some confusion surrounding the touch controls. So we've been working on both making them more intuitive, and also on implementing a non-intrusive tutorial. We're also working on a mascot character to help guide players. But more on them later, probably.
 
-Then, this month, a whole lot of things happened back-to-back. I got promoted at my day job! Then, we flew across the country to Denver to attend a wedding. And in between those events, we adopted a tortoise!
+Then, this month, a whole lot of things happened back-to-back. I got promoted at my day job! Then, we flew across the country to Denver to attend a wedding, where we cried a lot. And in between those events, we adopted a tortoise!
 
 This is Coco Jumbo. She's an Afghan tortoise of unknown age (we think a year or less). She weighs 0.76 pounds and is considered a little chubby for her size. Her favorite food is radicchio. We love her with all our hearts.
 
 <div>
-  <hr>
   <h3 id="gallery">Gallery</h3>
   {% assign gallery = site.galleries | where: "gallery_tag", "coco_1" | first %}
   {{ gallery }}
@@ -34,8 +33,9 @@ Tortoise husbandry has proved to be a unique and interesting challenge so far. B
 Maybe our next game will be about that.
 
 
-Looking forward, our next event will (hopefully) be BFIG, and shortly before that, we will be attending XOXO out west. So September is gonna be big for us, probably! See you there.
+Looking forward, our next event will (hopefully) be BFIG, and shortly before that, we will be attending [XOXO][xoxo] out west. So September is gonna be big for us, probably! See you there.
 
 
 [garden]: ../games/garden
 [playcraft]: ../articles/2019-05-03-playcraft-spring
+[xoxo]: https://2019.xoxofest.com/
