@@ -20,6 +20,8 @@ Feedback was mostly positive! People found the concept novel, but there was some
 
 Then, this month, a whole lot of things happened back-to-back. I got promoted at my day job! Then, we flew across the country to Denver to attend a wedding, where we cried a lot. And in between those events, we adopted a tortoise!
 
+## The Tortoise
+
 This is Coco Jumbo. She's an Afghan tortoise of unknown age (we think a year or less). She weighs 0.76 pounds and is considered a little chubby for her size. Her favorite food is radicchio. We love her with all our hearts.
 
 <div>
