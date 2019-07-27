@@ -23,11 +23,11 @@ Starting earlier this month, we signed Megan aboard as our resident 3D artist, f
 
 We first met Megan at [massdigi][MassDiGI 2018], where she was a member of the winning team, Micropup. For that project, she did a ton of stylish 3D plant art for their game, Keeper. So her track record spoke for itself, and made signing her a no brainer. Currently she's getting up to speed with our animation pipeline, but she's already working on some wonderful bamboo assets.
 
-![bamboo1](../assets/bamboo_1.gif)
+![bamboo1](../assets/bamboo_2.gif)
 
 Plus, here's a fun GIF of us totally goofing up our import settings.
 
-![bamboo2](../assets/bamboo_2.gif)
+![bamboo2](../assets/bamboo_goof.gif)
 
 ## Future Plans
 
