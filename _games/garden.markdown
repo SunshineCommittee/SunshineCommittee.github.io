@@ -44,6 +44,12 @@ All the audio for gARden is the work of longtime collaborator Matt Martin.
 {{ matt }}
 </div>
 
+Going forward, most of the 3D art assets are being made by longtime friend Megan McAvoy.
+<div class="contact">
+{% assign meg = site.contacts | where: "name", "Megan McAvoy" | first %}
+{{ meg }}
+</div>
+
 
 Some of the 3D art assets for gARden are the wonderful work of our friend Chelsea Saunders.
 <div class="contact">
