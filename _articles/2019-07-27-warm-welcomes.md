@@ -33,7 +33,9 @@ Plus, here's a fun GIF of us totally goofing up our import settings.
 
 ## Future Plans
 
-Despite exclusively positive feedback from curators, we were not chosen to showcase at Boston FIG 2019. That said, we opted to buy an exhibitor table, which we'll be sharing with another game called Vestigial, which is being worked on by Megan and her partner. I don't believe they have any social media or websites for that currently, but keep an eye out for it. From what I've seen thus far, it's really something special.
+Despite exclusively positive feedback from curators, we were not chosen to showcase at Boston FIG 2019. 
+
+That said, we opted to buy an exhibitor table, which we'll be sharing with another game called Vestigial, which is being worked on by Megan and her partner. I don't believe they have any social media or websites for that currently, but keep an eye out for it. From what I've seen thus far, it's really something special.
 
 
 
