@@ -3,10 +3,10 @@ title: "Upcoming Events"
 date: "2019-08-30"
 author: "Tom Farro"
 brief: "September is, as it turns out, quite busy for us!"
-thumbnail: "/assets/bfigfest2018.png"
+thumbnail: "/assets/events-2019.png"
 ---
 
-![fig](../assets/bfigfest2018.png)
+![events](../assets/events-2019.png)
 
 September is, as it turns out, quite busy for us! We'll be attending two events on opposite sides of the country, back-to-back this month.
 
