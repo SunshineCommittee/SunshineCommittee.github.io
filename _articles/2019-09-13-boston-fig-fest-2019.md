@@ -15,7 +15,7 @@ Tomorrow is Boston FIG Fest 2019! Come find us at table D11 in the Murr Center a
 ## Boston Festival of Indie Games
 
 Tomorrow, September 14th, we'll be tabling at [Boston Festival of Indie Games][bfig], sharing our space with Megan's other project, "Vestigial". 
-As promised in the last post, here's a post telling you all where to find us. Other great tables include D13 for Sunburst Studios, D23, and Petricore at D25!
+As promised in the last post, here's a post telling you all where to find us. Other great tables include D13 for Sunburst Studios, D23 for Mass DiGI, and Petricore at D25!
 
 ![map](../assets/bfig-2019-map.png)
 
