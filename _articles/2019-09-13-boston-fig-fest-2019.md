@@ -8,7 +8,7 @@ thumbnail: "/assets/bfigfest2019-2.png"
 
 ![events](../assets/bfigfest2019-2.png)
 
-Tomorrow is Boston FIG Fest 2019! Come find us at table D11 in the Murr Center!
+Tomorrow is Boston FIG Fest 2019! Come find us at table D11 in the Murr Center at Harvard!
 
 <!--more-->
 
