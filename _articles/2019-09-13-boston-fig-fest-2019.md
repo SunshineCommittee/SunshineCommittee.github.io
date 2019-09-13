@@ -3,10 +3,10 @@ title: "Boston FIG Fest 2019"
 date: "2019-09-13"
 author: "Tom Farro"
 brief: "Tomorrow is Boston FIG Fest 2019! Come find us at table D11!"
-thumbnail: "/assets/bfigfest-2019-2.png"
+thumbnail: "/assets/bfigfest2019-2.png"
 ---
 
-![events](../assets/bfigfest-2019-2.png)
+![events](../assets/bfigfest2019-2.png)
 
 Tomorrow is Boston FIG Fest 2019! Come find us at table D11 in the Murr Center!
 
