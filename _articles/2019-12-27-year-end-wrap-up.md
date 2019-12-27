@@ -21,7 +21,11 @@ All the way back in September, we shared a table at [Boston Festival of Indie Ga
 
 One of our goals was to make the app as a whole a little less opaque to new users. To that end, we decided having a mascot/mentor character would be good. So, back in the Spring, we (Kelly) started drawing concepts for the palm tree that would become Darcy, the keeper of the nursery. You may have seen them if you stopped by our BFIG table, as they were on our banner!
 
-![darcy](../assets/2019-year-end-wrap-up/tutorial_darcy.jpg)
+<div>
+  <h3 id="gallery">Slides</h3>
+  {% assign gallery = site.galleries | where: "gallery_tag", "2019-wrap-up-2" | first %}
+  {{ gallery }}
+</div>
 
 My personal goal for Darcy is to write them as a bit of a high-strung nerd. Which, hopefully, should be easy, because that's what I am.
 
@@ -42,18 +46,13 @@ To that end, we made little bubbles containting tools. The idea was that you'd t
 
 So, we took another crack at it.
 
-On the left, we have the old style of UI, featuring the 3D bubbles that orbited the plant. On the right, we have the new style of UI, which substitutes the bubbles for more traditional buttons that remain stationary relative to the screen, with tails pointing to the plant.
+On the left, we have the old style of UI, featuring the 3D bubbles that orbited the plant. On the right, we have the new style of UI, which substitutes the bubbles for more traditional buttons that remain stationary relative to the plant, with tails pointing to it.
 
-<table style="border: none;" border="0">
-    <tr>
-        <td style="border: none;">
-            <img src="../assets/2019-year-end-wrap-up/ui_old_bubbles.jpg"/>
-        </td>
-        <td style="border: none;">
-            <img src="../assets/2019-year-end-wrap-up/ui_new_overlay.jpg"/>
-        </td>
-    </tr>
-</table>
+<div>
+  <h3 id="gallery">Slides</h3>
+  {% assign gallery = site.galleries | where: "gallery_tag", "2019-wrap-up-1" | first %}
+  {{ gallery }}
+</div>
 
 These new UI elements also look quite good in motion, if I do say so myself.
 
