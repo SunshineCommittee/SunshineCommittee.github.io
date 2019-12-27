@@ -22,7 +22,7 @@ All the way back in September, we shared a table at [Boston Festival of Indie Ga
 One of our goals was to make the app as a whole a little less opaque to new users. To that end, we decided having a mascot/mentor character would be good. So, back in the Spring, we (Kelly) started drawing concepts for the palm tree that would become Darcy, the keeper of the nursery. You may have seen them if you stopped by our BFIG table, as they were on our banner!
 
 <div>
-  <h3 id="gallery">Slides</h3>
+  <h3 id="gallery">Darcy!</h3>
   {% assign gallery = site.galleries | where: "gallery_tag", "2019-wrap-up-2" | first %}
   {{ gallery }}
 </div>
@@ -49,17 +49,22 @@ So, we took another crack at it.
 On the left, we have the old style of UI, featuring the 3D bubbles that orbited the plant. On the right, we have the new style of UI, which substitutes the bubbles for more traditional buttons that remain stationary relative to the plant, with tails pointing to it.
 
 <div>
-  <h3 id="gallery">Slides</h3>
+  <h3 id="gallery">UI Styles</h3>
   {% assign gallery = site.galleries | where: "gallery_tag", "2019-wrap-up-1" | first %}
   {{ gallery }}
 </div>
 
 These new UI elements also look quite good in motion, if I do say so myself.
 
-< VIDEO >
+<div class="video-container">
+<iframe width="853" height="480" src="https://www.youtube.com/embed/4ahqIZz7spc" frameborder="0" allowfullscreen>
+</iframe>
+</div>
 
 ### More Plant Variance
- 
+
+I will probably do a more in-depth post on this in the future, but we've also rebuilt the way plants get textured, which allowed us and our artist to pretty easily make new color schemes for plants within a species. The palette selection 
+
 ## What We're Doing
 
 [garden]: ../games/garden
