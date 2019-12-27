@@ -22,7 +22,7 @@ All the way back in September, we shared a table at [Boston Festival of Indie Ga
 One of our goals was to make the app as a whole a little less opaque to new users. To that end, we decided having a mascot/mentor character would be good. So, back in the Spring, we (Kelly) started drawing concepts for the palm tree that would become Darcy, the keeper of the nursery. You may have seen them if you stopped by our BFIG table, as they were on our banner!
 
 <div>
-  <h3 id="gallery">Darcy!</h3>
+  <h3 id="gallery">Darcy</h3>
   {% assign gallery = site.galleries | where: "gallery_tag", "2019-wrap-up-2" | first %}
   {{ gallery }}
 </div>
@@ -63,9 +63,31 @@ These new UI elements also look quite good in motion, if I do say so myself.
 
 ### More Plant Variance
 
-I will probably do a more in-depth post on this in the future, but we've also rebuilt the way plants get textured, which allowed us and our artist to pretty easily make new color schemes for plants within a species. The palette selection 
+I will probably do a more in-depth post on this in the future, but we've also rebuilt the way plants get textured, which allowed us and our artist to pretty easily make new color schemes for plants within a species. You might have noticed the two jade plants in the above section were different patterns colors; that's a result of this system.
+
+Another neat thing we were able to do was implement a diegetic way of representing plant thirst; they now discolor to varying degrees depending on how much they need water.
+
+On the left, we have the plant builder menu presening the user with new color and pattern combinations each time they select the jade species. On the right, we have the aforementioned thirst indicator. Notice how the plant gets more yellow as the water level drains!
+
+<div>
+  <h3 id="gallery">Variable Colors</h3>
+  {% assign gallery = site.galleries | where: "gallery_tag", "2019-wrap-up-3" | first %}
+  {{ gallery }}
+</div>
 
 ## What We're Doing
+
+At BFIG, we got a fair amount of interest from visitors signing up for a closed alpha. We initially said we'd like to have that ready for you all by the end of the year. Unfortunately, as you can tell, we missed that window. However, we definitely still will be rolling out an alpha in the near future. If you have any questions or concerns about that, or want to sign up, drop us an email at <a target="_blank" href="mailto:devs@sunshinecommittee.io">devs@sunshinecommittee.io</a>. Thanks once again to you all for both your interest and your patience.
+
+### New Plants
+
+Currently, our artist Megan is working on a Begonia to add to the list of available plants at launch. This is the first plant we've worked on following the aformentioned refactor of the plant texture, and we're leveraging that as much as we can. You can expect to see more about this in a future post about that system specifically. 
+
+### Art Week!
+
+Lastly, we were recently asked to prepare a small installation for [Boston's Art Week][artweek] this coming May. Details are sparse, but you can expect more tweets and blog posts as we get closer to the event. It's still almost half a year away!
+
+[artweek]: http://www.artweekma.org/
 
 [garden]: ../games/garden
 
