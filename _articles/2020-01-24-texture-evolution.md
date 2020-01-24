@@ -8,7 +8,7 @@ thumbnail: "/assets/texture-evolution/swatches.png"
  
 ![swatches](../assets/texture-evolution/swatches.png)
  
-What have we been up to in the final quarter of the year? Quite a bit, actually!
+As alluded to in the last post, here's a step-by-step walkthrough of the evolution of our art pipeline!
  
 <!--more-->
  
