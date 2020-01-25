@@ -50,18 +50,24 @@ Material assets are basically text files that record numeric values for things l
 
 Going a step further, we applied color-relacement to the detail overlay layer as well. For this one, instead of just black and white, we codified the idea that you could replace the Red, Blue and Green colors in the detail texture individually. 
 
+As a result, we can thake these components...
+
 <table style="border: none;" border="0">
     <tr>
-        <td style="border: none;">
-            <img src="../assets/texture-evolution/baseRGB_Leaf.png"/>
+        <td style="border: none; height: 256px;">
+            <img src="../assets/texture-evolution/leaf_gradient.png"/>
         </td>
-        <td style="border: none;">
-            <img src="../assets/texture-evolution/leafGradient.png"/>
+        <td style="border: none; height: 256px;">
+            <img src="../assets/texture-evolution/baseRGB_Leaf.png"/>
         </td>
     </tr>
 </table>
 
-![layers](../assets/texture-evolution/in_engine_12.gif)
+..and combine them to do this!
+
+![layers](../assets/texture-evolution/in-engine_12.gif)
+
+These three sets of leaves all share the same two textures, thanks to this shader!
 
 ![variety](../assets/texture-evolution/many_colors.gif)
 
