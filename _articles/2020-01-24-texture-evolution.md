@@ -29,7 +29,7 @@ Begonias are not just a flat color; they have polka-dots! So, what to do?
  
 Our first attempt for that was to simply repeat the same method, except with a unique texture for the begonia with added dots, rather than reusing the shared one.
  
-[!begonia_first](../assets/texture-evolution/swatch_slide.gif)
+![begonia_first](../assets/texture-evolution/swatch_slide.gif)
  
 We quickly realized that this was foolish. We lost the primary benefit of reducing file size, and created extra work for ourselves, needing to carefully reproduce the dot pattern for each color variation.
  
