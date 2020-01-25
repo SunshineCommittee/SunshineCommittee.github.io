@@ -54,25 +54,25 @@ As a result, we can thake these components...
 
 <table style="border: none;" border="0">
     <tr>
-        <td style="border: none; height: 256px;">
-            <img src="../assets/texture-evolution/leaf_gradient.png"/>
+        <td style="border: none;">
+            <img style="max-height: 256px; max-width: 256px;" src="../assets/texture-evolution/leaf_gradient.png"/>
         </td>
         <td style="border: none; height: 256px;">
-            <img src="../assets/texture-evolution/baseRGB_Leaf.png"/>
+            <img style="max-height: 256px; max-width: 256px;" src="../assets/texture-evolution/baseRGB_Leaf.png"/>
         </td>
     </tr>
 </table>
 
-..and combine them to do this!
+...and combine them to do this in-engine!
 
 ![layers](../assets/texture-evolution/in-engine_12.gif)
 
-These three sets of leaves all share the same two textures, thanks to this shader!
+These three sets of leaves all share the same two textures, thanks to this shader! We can freely add more colors at will, without needing to open up an art program. How nice.
 
 ![variety](../assets/texture-evolution/many_colors.gif)
 
 ### Art Week!
-Lastly, we were recently asked to prepare a small installation for [Boston's Art Week][artweek] this coming May. Details are sparse, but you can expect more tweets and blog posts as we get closer to the event. It's still almost half a year away!
+Lastly, as mentioned lastt time, we were recently asked to prepare a small installation for [Boston's Art Week][artweek] this coming May. Details are sparse, but you can expect more tweets and blog posts as we get closer to the event. It's still many months away!
  
 [contract]: ../articles/2019-07-27-warm-welcomes
 [artweek]: http://www.artweekma.org/
