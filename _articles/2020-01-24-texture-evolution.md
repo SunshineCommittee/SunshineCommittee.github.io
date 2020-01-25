@@ -52,16 +52,7 @@ Going a step further, we applied color-relacement to the detail overlay layer as
 
 As a result, we can thake these components...
 
-<table style="border: none;" border="0">
-    <tr>
-        <td style="border: none;">
-            <img style="max-height: 256px; max-width: 256px;" src="../assets/texture-evolution/leaf_gradient.png"/>
-        </td>
-        <td style="border: none; height: 256px;">
-            <img style="max-height: 256px; max-width: 256px;" src="../assets/texture-evolution/baseRGB_Leaf.png"/>
-        </td>
-    </tr>
-</table>
+![parts](../assets/texture-evolution/combined.png)
 
 ...and combine them to do this in-engine!
 
