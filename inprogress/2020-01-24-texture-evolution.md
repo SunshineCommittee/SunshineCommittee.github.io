@@ -36,7 +36,6 @@ But what if we were able to combine the reusable gradient approach with the uniq
 Lastly, we were recently asked to prepare a small installation for [Boston's Art Week][artweek] this coming May. Details are sparse, but you can expect more tweets and blog posts as we get closer to the event. It's still almost half a year away!
  
 [contract]: ../articles/2019-07-27-warm-welcomes
- 
 [artweek]: http://www.artweekma.org/
 [garden]: ../games/garden
 [bfig]: https://www.bostonfig.com/
