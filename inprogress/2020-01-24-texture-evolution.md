@@ -52,16 +52,16 @@ Going a step further, we applied color-relacement to the detail overlay layer as
 
 <table style="border: none;" border="0">
     <tr>
-        <td style="border: none;">
+        <td style="border: none; height: 256px;">
             <img src="../assets/texture-evolution/baseRGB_Leaf.png"/>
         </td>
-        <td style="border: none;">
-            <img src="../assets/texture-evolution/leafGradient.png"/>
+        <td style="border: none; height: 256px;">
+            <img src="../assets/texture-evolution/leaf_gradient.png"/>
         </td>
     </tr>
 </table>
 
-![layers](../assets/texture-evolution/in_engine_12.gif)
+![layers](../assets/texture-evolution/in-engine_12.gif)
 
 ![variety](../assets/texture-evolution/many_colors.gif)
 
