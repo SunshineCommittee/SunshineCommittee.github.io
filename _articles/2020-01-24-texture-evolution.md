@@ -2,7 +2,7 @@
 title: "Texture Evolution"
 date: "2020-01-24"
 author: "Tom Farro"
-brief: "A step-by-step walkthrough of the evolution of our art pipeline."
+brief: "A step-by-step walkthrough of the evolution of our art pipeline!"
 thumbnail: "/assets/texture-evolution/swatches.png"
 ---
 ![swatches](../assets/texture-evolution/swatches.png)
