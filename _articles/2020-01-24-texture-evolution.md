@@ -19,8 +19,10 @@ The first idea we came up with was having all our plants share a single texture 
 
 ![bamboo](../assets/bamboo_0.png)
 
-This plan seemed quite good for a moment. The approach of sharing a single texture was very filesize efficient, which is hugely important on mobile. For simple plants like the jade or bamboo that we had at the time, this solution was perfectly serviceable. However, Megan was ambitious and wanted to model the lovely begonia as our next addition.
-Begonias are not just a flat color; they have polka-dots! So, what to do?
+This plan seemed quite good for a moment. The approach of sharing a single texture was very filesize efficient, which is hugely important on mobile. For simple plants like the jade or bamboo that we had at the time, this solution was perfectly serviceable. 
+
+However, Megan was ambitious and wanted to model the lovely begonia as our next addition. Begonias are not just a flat color; they have polka-dots! So, what to do?
+
 Our first attempt for that was to simply repeat the same method, except with a unique texture for the begonia with added dots, rather than reusing the shared one.
 
 ![begonia_first](../assets/texture-evolution/swatch_slide.gif)
