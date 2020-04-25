@@ -17,7 +17,7 @@ We'll be showing off gARden in its current state, and will be happy to talk abou
 
 The event is open to all members of the public, and will be conduted through a teleconferencing platform called ["Remo"][remo]. From what we can tell, Remo is like a server for multiple concurrent teleconference meetings, with a UI designed like a floorplan. You can drag your avatar from one "table" to another to drop in and out of the various meetings. Just like visiting tables at a traditional expo event, except, you know, incredibly online.
 
-You can join the Remo server from here:
+You can join the Remo server from here, via the top bar which reads, "Click here to join the Virtual Café on Thursday at 3PM!":
 
 [https://venturecafecambridge.org/][venture]
 
