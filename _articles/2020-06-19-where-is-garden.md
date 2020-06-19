@@ -14,7 +14,7 @@ It's the middle of June already. Oh, bother.
 
 At the start of the pandemic, Kelly and I spent a lot of our time after our day jobs making reusable cloth masks for folks in our families and our community
 
-![masks](../assets/masks.png)
+![masks](../assets/where-june/masks.png)
 
  
 
