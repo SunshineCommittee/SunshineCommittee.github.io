@@ -12,6 +12,10 @@ It's the middle of June already. Oh, bother.
 <!--more-->
 ## Where Has The Spring Gone?
 
+At the start of the pandemic, Kelly and I spent a lot of our time after our day jobs making reusable cloth masks for folks in our families and our community
+
+![masks](../assets/masks.png)
+
  
 
 [garden]: ../games/garden
