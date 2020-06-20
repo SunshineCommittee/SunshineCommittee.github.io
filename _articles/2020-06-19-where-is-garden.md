@@ -7,7 +7,7 @@ thumbnail: "/assets/where.jpg"
 ---
 ![mystery](../assets/where.jpg)
  
-It's the middle of June already. Oh, bother. 
+It's the middle of June already? Oh, bother. 
  
 <!--more-->
 ## Where Has The Spring Gone?
