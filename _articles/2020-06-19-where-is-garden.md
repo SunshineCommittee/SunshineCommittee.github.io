@@ -34,7 +34,9 @@ Then, two days after we submitted the video, the event was announced to be cance
  
 ### tort.zone
  
-Around this time, the first anniversary of us adopting our tortoise, Coco, was approaching, so we thought that working on a small side project for her would be a fun way to unwind. The scope was small enough that we could finish it in under a month, even on top of making masks and our day jobs. And so, last week, we launched [tort.zone][tort], Coco's personal website. I might actually do a post-mortem of that here later, if time somehow allows it. It uses some cool and fun web-tech, as well as some good old fashioned electrical engineering for the webcam component.
+Around this time, the first anniversary of us adopting our tortoise, Coco, was approaching, so we thought that working on a small side project for her would be a fun way to unwind. The scope was small enough that we could finish it in under a month, even on top of making masks and our day jobs. 
+
+And so, last week, we launched [tort.zone][tort], Coco's personal website. I might actually do a post-mortem of that here later, if time somehow allows it. It uses some cool and fun web-tech, as well as some good old fashioned electrical engineering for the webcam component.
  
 ![tortzone](../assets/where-june/tortzone.png)
  
