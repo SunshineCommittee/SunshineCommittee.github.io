@@ -25,7 +25,7 @@ At the start of March, when concerns about a pandemic started rising, Kelly and 
 Still, with what limited time we had left over we were also hustling to prepare gARden for submission to Boston FIG 2020, which was supposed to happen in September of this year. Our artists worked hard to introduce a few more varieties of plants such as the Stargazer lily, and Kelly and I worked on adding improved gamification features like daily quests, in the same style as Nook Miles (Animal Crossing has just come out). We pushed and pushed and ultimately got a video put together for submission!
  
 <div class="video-container">
-<iframe width="853" height="480" src="https:/https://www.youtube.com/embed/niH6dW8HKI4" frameborder="0" allowfullscreen>
+<iframe width="853" height="480" src="https://www.youtube.com/embed/niH6dW8HKI4" frameborder="0" allowfullscreen>
 </iframe>
 </div>
 <br>
