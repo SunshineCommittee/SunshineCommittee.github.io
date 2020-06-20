@@ -18,7 +18,7 @@ Those of you who met us at Boston FIG back in 2019 may remember that we took sig
  
 At the start of March, when concerns about a pandemic started rising, Kelly and I spent a lot of our time after our day jobs making reusable cloth masks for folks in our families and our community. 
 
-Since then, we've probably made close to 50 masks! Unfortunately, this ate up pretty much all of our available time in the evening, and really put a strain on our ability to do app development. 
+Since then, we've probably made close to 60 masks! Unfortunately, this ate up pretty much all of our available time in the evening, and really put a strain on our ability to do app development. 
 
 That said, we don't regret doing it at all, even though it set us back from our original timeline. Nothing is more important than public health and safety. 
  
@@ -58,7 +58,7 @@ This leaves two core areas left: increasing the amount of content (more plant sp
 
 If we do opt to monetize, there are a lot of legal hoops we need to jump through just to publish anything at all, so we're carefully considering our options. And, of course, if we do go that route, nothing will be locked behind a paywall that can't be obtained through regular play, so worry not!
  
-So, yeah. That's where our past three months have gone. Oh, on top of that, we're house-hunting too. Fun, right? I wish I could tell you something like "hopefully everything will settle down in the next few months and we'll be ready to go in no time, but that seems less and less likely as time progresses. Every day is a new disaster in 2020.
+So, yeah. That's where our past three months have gone. Oh, on top of that, we're house-hunting too. Fun, right? I wish I could tell you something like "hopefully everything will settle down in the next few months and we'll be ready to go in no time", but that seems less and less likely as time progresses. Every day is a new disaster in 2020.
  
 Stay safe, stay well. We miss seeing you all at live events.
  
