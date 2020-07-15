@@ -32,11 +32,20 @@ Development for gARden started mid-January 2018 as part of a hackathon project a
 <ul>
     <li>Marker-based AR allows you decorate your physical space with digital plants!</li>
     <li>Plants grow slowly in real time. Check in whenever to see how they're doing!</li>
-    <li>Prune and sclupt your plants however you wish! Each one will grow back in a unique way!</li>
+    <li>Prune and sculpt your plants however you wish! Each one will grow back in a unique way!</li>
     <li>Share photos of your plants on social media with the built-in camera!</li>
 </ul>
 
+## Press Kit
+
+Check out our press kit, [available here][presskit]!
+
+The press kit contains high res logos, a multitude of screenshots, as well as a slide deck about us and the app. We hope you find it useful!
+
 ## Additional Credits
+
+In addition to [Tom and Kelly][contact], gARden is made possible through collaboration with the following excellent individuals!
+
 
 All the audio for gARden is the work of longtime collaborator Matt Martin.
 <div class="contact">
@@ -51,10 +60,12 @@ Going forward, most of the 3D art assets are being made by longtime friend Megan
 </div>
 
 
-Some of the 3D art assets for gARden are the wonderful work of our friend Chelsea Saunders.
+Some of the 3D art assets for gARden are the wonderful work of our friend Chelsea Saunders, though she is no longer with the team.
 <div class="contact">
 {% assign pcrown = site.contacts | where: "name", "Chelsea Saunders" | first %}
 {{ pcrown }}
 </div>
 
 [massdigi]: ../articles/2018-03-03-mass-digi
+[contact]: ../about
+[presskit]: ../assets/press/gARden_presskit.zip
