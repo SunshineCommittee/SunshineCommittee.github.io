@@ -47,24 +47,25 @@ The press kit contains high res logos, a multitude of screenshots, as well as a 
 In addition to [Tom and Kelly][contact], gARden is made possible through collaboration with the following excellent individuals!
 
 
-All the audio for gARden is the work of longtime collaborator Matt Martin.
 <div class="contact">
 {% assign matt = site.contacts | where: "name", "Matt Martin" | first %}
 {{ matt }}
 </div>
+All the audio for gARden is the work of longtime collaborator Matt Martin.
 
-Going forward, most of the 3D art assets are being made by longtime friend Megan McAvoy.
+
 <div class="contact">
 {% assign meg = site.contacts | where: "name", "Megan McAvoy" | first %}
 {{ meg }}
 </div>
+Going forward, most of the 3D art assets are being made by longtime friend Megan McAvoy.
 
 
-Some of the 3D art assets for gARden are the wonderful work of our friend Chelsea Saunders, though she is no longer with the team.
 <div class="contact">
 {% assign pcrown = site.contacts | where: "name", "Chelsea Saunders" | first %}
 {{ pcrown }}
 </div>
+Some of the 3D art assets for gARden are the wonderful work of our friend Chelsea Saunders, though she is no longer with the team.
 
 [massdigi]: ../articles/2018-03-03-mass-digi
 [contact]: ../about
