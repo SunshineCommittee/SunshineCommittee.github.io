@@ -21,9 +21,9 @@ Starting earlier this month, we signed Megan aboard as our resident 3D artist, f
 {{ meg }}
 </div>
 
-We first met Megan at [Mass DiGI 2018][massdigi], where she was a member of the winning team, Micropup. For that project, she did a ton of stylish 3D plant art for their game, Keeper. So her track record spoke for itself, and made signing her a no brainer. 
+We first met Megan at [Mass DiGI 2018][massdigi], where she was a member of the winning team, Micropup. For that project, they did a ton of stylish 3D plant art for their game, Keeper. So their track record spoke for itself, and made signing them a no brainer. 
 
-Currently she's getting up to speed with our animation pipeline, but she's already working on some wonderful bamboo assets. Even after only a few weeks, they're really shaping up.
+Currently they're getting up to speed with our animation pipeline, but they's already working on some wonderful bamboo assets. Even after only a few weeks, they're really shaping up.
 
 ![bamboo1](../assets/bamboo_2.gif)
 
@@ -35,7 +35,7 @@ Plus, here's a fun GIF of us totally goofing up our import settings.
 
 Despite exclusively positive feedback from curators, we were not chosen to showcase at Boston FIG 2019. 
 
-That said, we opted to buy an exhibitor table, which we'll be sharing with another game called Vestigial, which is being worked on by Megan and her partner. I don't believe they have any social media or websites for that currently, but keep an eye out for it. From what I've seen thus far, it's really something special.
+That said, we opted to buy an exhibitor table, which we'll be sharing with another game called Vestigial, which is being worked on by Megan and their partner. I don't believe they have any social media or websites for that currently, but keep an eye out for it. From what I've seen thus far, it's really something special.
 
 
 

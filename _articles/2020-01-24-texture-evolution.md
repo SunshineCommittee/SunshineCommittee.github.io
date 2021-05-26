@@ -11,7 +11,7 @@ As alluded to in the last post, here's a step-by-step walkthrough of the evoluti
  
 <!--more-->
 ## Where We Started
-Once we [contracted Megan to handle 3D art][contract] for us on her own time and schedule, it became apparent that we needed to set some guidelines about how assets should be constructed, so that she could work on them without needing constant feedback from us. To that end, we set out to create an internal "Art Bible".
+Once we [contracted Megan to handle 3D art][contract] for us on her own time and schedule, it became apparent that we needed to set some guidelines about how assets should be constructed, so that they could work on them without needing constant feedback from us. To that end, we set out to create an internal "Art Bible".
 
 We discussed how we wanted plants to have color variance within a species, and tried to figure out an effective way to do that without the color just being a random shift up or down from a base color. We wanted to be able to choose a bunch of colors in advance, and then somehow apply a little variation to the end result.
 
